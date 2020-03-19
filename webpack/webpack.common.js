@@ -7,6 +7,7 @@ const path = require("path");
 // const WebSocket = require("ws");
 // eslint-disable-next-line no-undef
 module.exports = {
+  watch: true,
   plugins: [
     // {
     //   apply: compiler => {
