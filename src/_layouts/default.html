@@ -221,7 +221,7 @@ layout: skeleton
           <p>
         <ul>
         {%- for li in site.data.content["section-resources"].list -%}
-          <li><span>{{li.title[page.lang]}}</span> <span><a href="{{li.link.url}}">{{li.link[page.lang]}}</a></span></li>
+          <li><span>{{li.title[page.lang]}}</span> <span><a rel="noopener noreferrer" target="_blank" href="{{li.link.url}}">{{li.link[page.lang]}}</a></span></li>
         {%- endfor -%}
         </ul>
 
