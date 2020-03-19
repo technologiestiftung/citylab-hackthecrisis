@@ -38,6 +38,16 @@ body {
   font-family: "National Regular";
 }
 
+.button.is-primary {
+  font-size: $size-5;
+  color: white;
+  background-color: $text;
+
+  &:hover {
+    background-color: $text;
+  }
+}
+
 .hero-body {
   padding-top: 0rem !important;
 }
