@@ -259,7 +259,7 @@ layout: skeleton
         {%- endfor -%}
       </div>
     </div>
-     {%- if counter == 1 -%}
+     {%- if counter == 1 or forloop.last == true -%}
      </div>
      {%- endif -%}
      {%- endfor -%}
