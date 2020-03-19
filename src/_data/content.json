@@ -1,0 +1,30 @@
+{
+  "section-hero": {
+    "text": {
+      "en": [""],
+      "de": [""]
+    }
+  },
+  "section-introduction": {
+    "text": {
+      "en": [""],
+      "de": [""]
+    }
+  },
+  "section-submit-project": {
+    "text": {
+      "en": [""],
+      "de": [""]
+    }
+  },
+  "section-partners": {
+    "text": {
+      "en": [""],
+      "de": [""]
+    },
+    "partners": [
+      { "name": "foobah", "image": "/assets/img/placeholder-logo-partner.png" },
+      { "name": "Kittens", "image": "http://placekitten.com/256/128" }
+    ]
+  }
+}

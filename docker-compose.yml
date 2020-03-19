@@ -1,0 +1,14 @@
+version: "3.4"
+
+services:
+  citylab-hackthecrisis:
+    container_name: hackthecrisis
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - /srv/node_modules
+      - ".:/srv/jekyll"
+    ports:
+      - "4000:4000"
+      - "35729:35729"

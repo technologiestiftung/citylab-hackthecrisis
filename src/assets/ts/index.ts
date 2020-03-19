@@ -3,6 +3,7 @@ import { add } from "./lib/stub";
 // let count = 0;
 document.addEventListener("DOMContentLoaded", function() {
   console.log(`2 + 2 = ${add({ a: 2, b: 3 })}`);
+  console.log(`2 + 3 = ${add({ a: 2, b: 2 })}`);
   // setInterval(() => {
   // count = add({ a: count, b: 1 });
   // console.log(count);
