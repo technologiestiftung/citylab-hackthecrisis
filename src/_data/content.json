@@ -1,27 +1,33 @@
 {
   "section-hero": {
+    "title": {
+      "en": ["Hack", "the Crisis", "<span>Berlin Edition</span>"],
+      "de": ["Hack", "the Crisis", "<span>Berlin Edition</span>"]
+    },
     "text": {
       "en": [""],
       "de": [
-        "Wir brauchen Eure Unterstützung im Kampf gegen die Ausbreitung von COVID-19! Mit dieser Seite möchten wir Projekten aus der Berliner Community (und darüber hinaus!) eine Plattform bieten, Ideen vorzustellen und sich zu zu Teams zusammenzuschließen."
+        "Wir brauchen Eure Unterstützung im Kampf gegen die Ausbreitung von COVID-19!",
+        "Die aktuelle Krise betrifft uns alle. Gleichzeitig kann jede*r von uns einen Beitrag leisten, die Konsequenzen zu mindern. Hier möchten wir Projekten aus der Berliner Community (und darüber hinaus!) eine Plattform bieten, Ideen vorzustellen und sich zu zu Teams zusammenzuschließen.",
+        "<!-- <blockquote></blockquote> -->"
       ]
     }
   },
   "section-introduction": {
     "title": {
       "en": "",
-      "de": "So geht's"
+      "de": ""
     },
     "sub-section-idea": {
       "title": {
         "en": "",
-        "de": "Deine Ideen"
+        "de": "So geht's"
       },
       "text": {
         "en": [""],
         "de": [
-          "Ihr stellt euere Ideen und Projekte auf unserer offenen Projektplattform vor. Wir helfen euch dabei, Mitstreiter*innen zu finden und unterstützen euch gemeinsam mit einem breiten Partnernetzwerk mit Ressourcen, Mentoring und Kontakten. ",
-          "Mögliche Maßnahmen zur Eindämmung von COVID-19 sind vielfältig, digital und analog. Dazu gehören zum Beispiel:"
+          "Nutzt unsere Projektplattform um eure Ideen und Projekte vorzustellen oder um euch über aktuelle Herausforderungen zu informieren. Wir helfen euch dabei, Mitstreiter*innen und Ressourcen zu finden. Wir stehen in direktem Kontakt mit Berliner Gesundheitsbehörden und anderen Experten und sorgen dafür, dass eure Projekte und Ideen Gehör finden.",
+          "Mögliche Maßnahmen zur Eindämmung von COVID-19 sind vielfältig, digital und analog. Wir sammeln Projekte aus verschiedenen Bereichen, zum Beispiel"
         ]
       },
       "list": {
@@ -33,7 +39,7 @@
           "Prävention und Sicherheit",
           "Hardware (3D-Druck, Sensorik etc.)",
           "Lernen",
-          "Mobilität",
+          "Mobilität und Wirtschaft",
           "Freizeit"
         ]
       }
@@ -46,7 +52,7 @@
       "text": {
         "en": [""],
         "de": [
-          "Jede und jeder! Macht mit, ungeachtet eures akademischen oder professionellen Hintergrunds. Auch individuell oder zu zweit könnt ihr Euch einbringen, vielleicht schließen sich schon bald weitere Personen an. Nutzt gerne unseren [Slack], um euch mit anderen auszutauschen."
+          "Jede*r! Macht mit, ungeachtet eures akademischen oder professionellen Hintergrunds. Ihr könnt euch als Team ebenso einbringen wie alleine. Vielleicht schließen sich schon bald weitere Personen an. Nutzt gerne unseren <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-cuwrelh0-~zlO_TY67TvmKVrORdsu2w\">Slack</a>, um euch mit anderen auszutauschen."
         ]
       },
       "list": {
@@ -61,12 +67,8 @@
       "de": "Projekt einreichen"
     },
     "text": {
-      "en": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      ],
-      "de": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      ]
+      "en": [""],
+      "de": [""]
     },
     "buttons": [
       {
@@ -92,21 +94,25 @@
     },
     "text": {
       "en": [""],
-      "de": [""]
+      "de": [
+        "Wir freuen uns über weitere Unterstützung – Meldet euch unter <a href=\"mailto:hackthecrisis@citylab-berlin.org\">hackthecrisis@citylab-berlin.org</a>"
+      ]
     },
     "partners": [
       {
-        "name": "No image there",
+        "name": "CityLAB",
         "image": "/assets/img/placeholder-logo-partner.png"
       },
-      { "name": "Kittens", "image": "http://placekitten.com/256/128" },
-      { "name": "Kittens", "image": "http://placekitten.com/256/128" },
-      { "name": "Kittens", "image": "http://placekitten.com/256/128" },
-      { "name": "Kittens", "image": "http://placekitten.com/256/128" },
-      { "name": "Kittens", "image": "http://placekitten.com/256/128" },
-      { "name": "Kittens", "image": "http://placekitten.com/256/128" },
-      { "name": "Kittens", "image": "http://placekitten.com/256/128" },
-      { "name": "Kittens", "image": "http://placekitten.com/256/128" }
+      {
+        "name": "Senatskanzlei",
+        "image": "/assets/img/placeholder-logo-partner.png"
+      },
+      { "name": "SenGPG", "image": "/assets/img/placeholder-logo-partner.png" },
+      {
+        "name": "Technologiestiftung",
+        "image": "/assets/img/placeholder-logo-partner.png"
+      },
+      { "name": "Guaana", "image": "/assets/img/placeholder-logo-partner.png" }
     ]
   },
   "section-resources": {
@@ -116,9 +122,7 @@
     },
     "text": {
       "en": [""],
-      "de": [
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-      ]
+      "de": [""]
     },
     "list": [
       {
@@ -148,24 +152,12 @@
       {
         "title": {
           "en": "",
-          "de": "Wann und wo?"
+          "de": "Ist das hier ein Hackathon?"
         },
         "text": {
           "en": [],
           "de": [
-            "Der \"Hack The Crisis Berlin\"-Hackathon findet ab jetzt online statt. Es ist auch kein traditioneller Sinn, da wir keinen Wettbewerb anstreben. Viel mehr wollen wir ein Plattform aufsetzen, auf der wir gemeinsam Vorschläge und Projekte vorstellen, diskutieren und umsetzen können."
-          ]
-        }
-      },
-      {
-        "title": {
-          "en": "",
-          "de": "Brauche ich ein Team?"
-        },
-        "text": {
-          "en": [],
-          "de": [
-            "Nein, der Hackathon ist offen für alle Vorschläge, egal ob von Individuen oder Gruppen. Ziel ist es, Vorschläge zu machen, diese gemeinsam zu diskutieren und dann weitere Mitstreiter*innen zu finden. Ihr könnte euch individuell oder als Team registrieren."
+            "Nein. Wir brauchen jetzt keine Wettbewerbe, sondern nachhaltige Kooperationen. Das Coronavirus wird uns noch eine Weile begleiten. Wir wollen helfen, Strukturen zu schaffen und die engagierte Community in Berlin (und darüber hinaus) zu vernetzen."
           ]
         }
       },
@@ -177,32 +169,43 @@
         "text": {
           "en": [],
           "de": [
-            "Da machen wir keine Vorgaben. Wir haben einige Kategorien identifiziert um einen Rahmen zu setzen, aber auch diesen dürft ihr sprengen. Schlagt große oder kleine Ideen vor, die können von der Community diskutiert werden.  Unsere Mentor*innen und wir werden auch versuchen, euch eine Rückmeldung zu geben und dabei helfen, die Projekte zu konkretisieren oder umzusetzen."
+            "Da machen wir keine Vorgaben. Wir haben einige Kategorien identifiziert um einen Rahmen zu setzen, aber diesen dürft ihr gerne sprengen. Schlagt große oder kleine Ideen vor, die können von der Community diskutiert werden.  Unsere Mentor*innen und wir werden auch versuchen, euch eine Rückmeldung zu geben und dabei helfen, die Projekte zu konkretisieren oder umzusetzen. "
           ]
         }
       },
       {
         "title": {
           "en": "",
-          "de": " Kann ich auch ohne technisches Vorwissen mitmachen?"
+          "de": "Kann ich auch ohne technisches Vorwissen mitmachen?"
         },
         "text": {
           "en": [],
           "de": [
-            " Ja! Unser Team und die Mentor*innen geben euch eine Einschätzung der technischen Machbarkeit und unterstützen euch dabei, Mitstreiter*innen zu finden, die bei der Umsetzung helfen können."
+            "Ja! Wir helfen euch gerne dabei, die technische Machbarkeit eurer Ideen einzuschätzen und Mitstreiter*innen zu finden, die euch bei der Umsetzung helfen können."
           ]
         }
       },
       {
         "title": {
-          "en": "Example",
-          "de": "Example"
+          "en": "",
+          "de": "Brauche ich ein Team?"
         },
         "text": {
           "en": [],
           "de": [
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "Nein, unsere Plattform ist offen für alle Vorschläge, egal ob von Individuen oder Gruppen. Ziel ist es, Vorschläge zu machen, diese gemeinsam zu diskutieren und dann weitere Mitstreiter*innen zu finden. Ihr könnte euch individuell oder als Team registrieren.  "
+          ]
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "de": "Ich möchte meine Idee kommerziell verwerten. Was ist mit meinem geistigen Eigentum?"
+        },
+        "text": {
+          "en": [],
+          "de": [
+            "Wir finden Offenheit zwar besser, machen diesbezüglich aber keine Vorgaben. Selbstverständlich beanspruchen wir keinerlei Eigentums- oder Verwertungsrechte an euren Ideen. "
           ]
         }
       }
