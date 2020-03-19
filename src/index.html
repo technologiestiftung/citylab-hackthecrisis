@@ -5,10 +5,10 @@ layout: default
 lang: "de"
 ---
 <header></header>
-<section class="section">
-  <div class="container">
+<section class="section" id="navigation">
+  <nav class="container">
     {% include hack-the-crisis-logo.html %}
-  </div>
+  </nav>
 </section>
 <section class="hero is-medium">
   <!-- <div class="hero-head">
@@ -52,19 +52,15 @@ lang: "de"
   <div class="hero-body">
     <div class="container">
       <div class="columns is-centered">
-        <div class="column is-8">
+        <div class="column is-12">
           <div class="hero-image-wrapper">
-            <img src="http://placekitten.com/1000/600" alt="A Virus" />
+            <img src="/assets/img/hero.jpg" alt="A Virus" />
             <div class="hero-image-overlay shadow">
               <h1 class="title is-1">
-                Hack
+                Hack<br/>
+                the Crisis<br/>
+                <span>Berlin</span>
               </h1>
-              <h1 class="title is-1 ">
-                the Crisis
-              </h1>
-              <h2 class="subtitle is-2">
-                Berlin Edition
-              </h2>
               <div class="content" >
                 {% for text in site.data.content["section-hero"].text[page.lang] %}
                 <p>{{ text | markdownify }}</p>
@@ -258,7 +254,7 @@ lang: "de"
      <div class="columns is-centered is-8">
      {%- endif -%}
      <div class="column is-4">
-      <div class="content content__faq--white">
+      <div class="content content__faq--white shadow">
         <p class="is-title has-text-weight-bold">
           {{question.title[page.lang]}}
         </p>
