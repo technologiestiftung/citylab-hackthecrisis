@@ -46,6 +46,7 @@ layout: skeleton
     </nav>
   </div> -->
   <!-- Hero content: will be in the middle -->
+
   <div class="hero-body">
     <div class="container">
       <div class="columns is-centered">
@@ -54,9 +55,9 @@ layout: skeleton
             <img src="/assets/img/hero.jpg" alt="A Virus" />
             <div class="hero-image-overlay shadow">
               <h1 class="title is-1">
-                Hack<br/>
-                the Crisis<br/>
-                <span>Berlin</span>
+                {%- for item in site.data.content["section-hero"].title[page.lang] -%}
+                  {{item}}{%- if forloop.last != true -%} <br/>{%- endif -%}
+                {%- endfor -%}
               </h1>
               <div class="content" >
                 {% for text in site.data.content["section-hero"].text[page.lang] %}
@@ -151,7 +152,7 @@ layout: skeleton
           </p>
           <div class="buttons">
           {%- for button in site.data.content["section-submit-projects"].buttons -%}
-            <a class="button is-primary" href="{{button.url}}">{{button.text[page.lang]}}</a>
+            <a rel="noopener noreferrer" target="_blank" class="button is-primary" href="{{button.url}}">{{button.text[page.lang]}}</a>
           {%- endfor -%}
           </div>
         </div>
@@ -174,7 +175,7 @@ layout: skeleton
   {%- if counter == 0  -%}
       <div class="columns is-centered is-8">
   {%- endif -%}
-<div class="column is-2 placeholder">
+<div class="column is-2">
           <div>
             <img src="{{partner.image}}" alt="logo {{partner.name}}">
           </div>
@@ -182,23 +183,21 @@ layout: skeleton
             <p>{{partner.name}}</p>
           </div>
         </div>
-{%- if counter == 3  -%}
+{%- if counter == 3 or forloop.last == true  -%}
       </div>
   {%- endif -%}
 
     {%- endfor -%}
-      {%- comment -%} <div class="columns is-centered is-8 is-multiline">
-      {%- for partner in site.data.content["section-partners"].partners -%}
-        <div class="column is-2 placeholder">
-          <div>
-            <img src="{{partner.image}}" alt="logo {{partner.name}}">
-          </div>
-          <div>
-            <p>{{partner.name}}</p>
-          </div>
+
+    <div class="columns is-centered is-8">
+      <div class="column is-8">
+        <div class="content">
+          {%- for text in site.data.content["section-partners"].text[page.lang] -%}
+          <p>{{text}}</p>
+          {%- endfor -%}
         </div>
-      {%- endfor -%}
-      </div> {%- endcomment -%}
+      </div>
+    </div>
   </div>
 </section>
 <!--
@@ -222,7 +221,7 @@ layout: skeleton
           <p>
         <ul>
         {%- for li in site.data.content["section-resources"].list -%}
-          <li><span>{{li.title[page.lang]}}</span> <span><a href="{{li.link.url}}">{{li.link[page.lang]}}</a></span></li>
+          <li><span>{{li.title[page.lang]}}</span> <span><a rel="noopener noreferrer" target="_blank" href="{{li.link.url}}">{{li.link[page.lang]}}</a></span></li>
         {%- endfor -%}
         </ul>
 
@@ -260,7 +259,7 @@ layout: skeleton
         {%- endfor -%}
       </div>
     </div>
-     {%- if counter == 1 -%}
+     {%- if counter == 1 or forloop.last == true -%}
      </div>
      {%- endif -%}
      {%- endfor -%}
