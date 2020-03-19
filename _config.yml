@@ -21,7 +21,7 @@ exclude:
   - README.md
   - assets/ts
   # - assets/css/partials
-  # - assets/css/index.scss
+  - assets/css/index.scss
   # - assets/css
 
 defaults:
