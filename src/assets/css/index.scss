@@ -231,7 +231,14 @@ div.section {
 .title {
   font-family: "National ExtraBold";
   line-height: $heading-line-height;
-  color: $primary;
+  color: $text;
+
+  &.is-2 {
+    font-size: $size-3;
+    @include from($desktop) {
+      font-size: $size-2;
+    }
+  }
 
   span {
     opacity: 0.5;
@@ -239,6 +246,7 @@ div.section {
 }
 
 .title.is-1 {
+  color: $primary;
   font-size: $size-3;
   margin-bottom: $size-5;
   @include from($tablet) {
