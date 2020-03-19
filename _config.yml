@@ -21,9 +21,9 @@ exclude:
   - README.md
   - assets/ts
   # - assets/css/partials
-  # - assets/css/index.scss
+  - assets/css/index.scss
   # - assets/css
-
+host: 0.0.0.0
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
