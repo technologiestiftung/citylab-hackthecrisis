@@ -1,4 +1,24 @@
 {
+  "meta": {
+    "title": {
+      "en": "Hack the Crisis - Berlin Edition",
+      "de": "Hack the Crisis - Berlin Edition"
+    },
+    "footer": {
+      "tagline": {
+        "en": "We need your support in the fight against the spread of COVID-19!",
+        "de": "Wir brauchen Eure Unterstützung im Kampf gegen die Ausbreitung von COVID-19!"
+      },
+      "byline": {
+        "en": "A project by",
+        "de": "Ein Projekt von"
+      },
+      "supportline": {
+        "en": "Supported from",
+        "de": "Gefördert von"
+      }
+    }
+  },
   "section-hero": {
     "title": {
       "en": ["Hack", "the Crisis", "<span>Berlin Edition</span>"],

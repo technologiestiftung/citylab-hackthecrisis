@@ -57,7 +57,9 @@ layout: skeleton
       <div class="columns is-centered">
         <div class="column is-12">
           <div class="hero-image-wrapper">
-            <img src="/assets/img/hero.jpg" alt="A Virus" />
+            <figure class="image is-16by9">
+              <img src="/assets/img/hero.jpg" alt="A Virus" />
+            </figure>
             <div class="hero-image-overlay shadow">
               <h1 class="title is-1">
                 {%- for item in site.data.content["section-hero"].title[page.lang] -%}
@@ -251,7 +253,9 @@ layout: skeleton
   {%- endif -%}
         <div class="column is-2">
           <div>
-            <img src="{{partner.image}}" alt="logo {{partner.name}}">
+            <figure class="image is-2by1">
+              <img src="{{partner.image}}" alt="logo {{partner.name}}">
+            </figure>
           </div>
           <div>
             <p>{{partner.name}}</p>
@@ -319,11 +323,34 @@ layout: skeleton
     <div class="columns is-centered">
       <div class="column">
         {% include hack-the-crisis-logo.html %}
-        <div class="content has-text-centered">
-          <p>
-          </p>
-        </div>
       </div>
+      <div class="column">
+        <div class="content">
+          <p class="footer__tagline--size">
+          {{site.data.content.meta.footer.tagline[page.lang]}}
+          </p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="content">
+        <p>
+          {{site.data.content.meta.footer.byline[page.lang]}}
+        </p>
+      </div>
+      <figure class="image is-128x128">
+        <img src="/assets/img/citylab-logo.svg" alt="logo" class="">
+      </figure>
+    </div>
+    <div class="column">
+      <div class="content">
+        <p>
+          {{site.data.content.meta.footer.supportline[page.lang]}}
+        </p>
+        <figure class="image is-128x128">
+          <img src="/assets/img/be-berlin-logo.svg" alt="logo" class="">
+        </figure>
+      </div>
+    </div>
     </div>
   </div>
 </footer>
