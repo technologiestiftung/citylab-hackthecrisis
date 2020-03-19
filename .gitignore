@@ -1,4 +1,5 @@
 src/assets/js/index.bundle.js
+_site/
 # Logs
 logs
 *.log
