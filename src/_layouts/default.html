@@ -1,50 +1,59 @@
 ---
 layout: skeleton
 ---
-<header></header>
-<section class="section" id="navigation">
-  <nav class="container">
-    {% include hack-the-crisis-logo.html %}
-  </nav>
-</section>
-<section class="hero is-medium">
-  <!-- <div class="hero-head">
-    <nav class="navbar">
+<section class="hero is-medium" id="hero">
+  <div class="hero-head">
+    <nav class="navbar is-fixed-top">
       <div class="container">
         <div class="navbar-brand">
-          <a href="" class="navbar-item">
-            <img src="http://placekitten.com/64" alt="logo" />
+          <a href="/" class="navbar-item">
+            {% include hack-the-crisis-logo.html %}
           </a>
-          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+          </div>
+
+          <input
+          type='checkbox'
+          role='button'
+          id='navbar-burger-toggle'
+          class='navbar-burger-toggle is-hidden'
+          aria-label='menu'
+          aria-expanded='false'
+        >
+
+        <label for='navbar-burger-toggle' class='navbar-burger'>
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+          <!-- <span class="navbar-burger burger" data-target="navbarMenuHeroA">
             <span></span>
             <span></span>
             <span></span>
           </span>
-        </div>
+        </div> -->
         <div id="navbarMenuHeroA" class="navbar-menu">
           <div class="navbar-end">
-            <a class="navbar-item is-active">
-              Home
+            {%- for item in site.data.content -%}
+            {% assign key = item[0] %}
+            {% assign id = site.data.content[key].id %}
+            {% assign text = site.data.content[key].title[page.lang] %}
+            {%- unless site.data.content[key].id -%}
+            {% continue %}
+            {%- endunless  -%}
+            <!-- {{site.data.content[key].id}} -->
+            <a class="navbar-item menu__navbar-items" id="navbar-item-{{forloop.index0}}" href="/{%-if page.lang == 'en'-%}en{%-endif-%}#{{id}}">
+              {{text}}
             </a>
-            <a class="navbar-item">
-              Examples
-            </a>
-            <a class="navbar-item">
-              Documentation
-            </a>
+            {%- endfor -%}
+
             <span class="navbar-item">
-              <a class="button is-primary is-inverted">
-                <span class="icon">
-                  <i class="fab fa-github"></i>
-                </span>
-                <span>Download</span>
-              </a>
+               <span class="{%- if page.lang == 'en' -%}is-active{%-endif-%}"><a href="/en">EN</a></span>|<span class="{%- if page.lang == 'de' -%}is-active{%-endif-%}"><a href="/">DE</a></span>
             </span>
           </div>
         </div>
       </div>
     </nav>
-  </div> -->
+  </div>
   <!-- Hero content: will be in the middle -->
 
   <div class="hero-body">

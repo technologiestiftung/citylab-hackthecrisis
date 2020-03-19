@@ -14,9 +14,10 @@
     }
   },
   "section-introduction": {
+    "id": "introduction",
     "title": {
-      "en": "",
-      "de": ""
+      "en": "REPLACE ME",
+      "de": "So geht's"
     },
     "sub-section-idea": {
       "title": {
@@ -46,7 +47,7 @@
     },
     "sub-section-participation": {
       "title": {
-        "en": "",
+        "en": "REPLACE ME",
         "de": "Wer kann mitmachen?"
       },
       "text": {
@@ -62,8 +63,9 @@
     }
   },
   "section-submit-projects": {
+    "id": "submit-projects",
     "title": {
-      "en": "",
+      "en": "Submit Project",
       "de": "Projekt einreichen"
     },
     "text": {
@@ -88,8 +90,9 @@
     ]
   },
   "section-partners": {
+    "id": "partners",
     "title": {
-      "en": "",
+      "en": "Partners",
       "de": "Partner"
     },
     "text": {
@@ -116,8 +119,9 @@
     ]
   },
   "section-resources": {
+    "id": "resources",
     "title": {
-      "en": "",
+      "en": "Ressources",
       "de": "Ressourcen"
     },
     "text": {
@@ -144,6 +148,7 @@
     ]
   },
   "section-faq": {
+    "id": "faq",
     "title": {
       "en": "FAQ",
       "de": "FAQ"
