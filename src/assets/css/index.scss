@@ -38,6 +38,11 @@ body {
   font-family: "National Regular";
 }
 
+a,
+a:hover {
+  color: $primary;
+}
+
 .button.is-primary {
   font-size: $size-5;
   color: white;
