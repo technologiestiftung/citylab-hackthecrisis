@@ -174,7 +174,7 @@ layout: skeleton
   {%- if counter == 0  -%}
       <div class="columns is-centered is-8">
   {%- endif -%}
-<div class="column is-2 placeholder">
+<div class="column is-2">
           <div>
             <img src="{{partner.image}}" alt="logo {{partner.name}}">
           </div>
@@ -182,23 +182,21 @@ layout: skeleton
             <p>{{partner.name}}</p>
           </div>
         </div>
-{%- if counter == 3  -%}
+{%- if counter == 3 or forloop.last == true  -%}
       </div>
   {%- endif -%}
 
     {%- endfor -%}
-      {%- comment -%} <div class="columns is-centered is-8 is-multiline">
-      {%- for partner in site.data.content["section-partners"].partners -%}
-        <div class="column is-2 placeholder">
-          <div>
-            <img src="{{partner.image}}" alt="logo {{partner.name}}">
-          </div>
-          <div>
-            <p>{{partner.name}}</p>
-          </div>
+
+    <div class="columns is-centered is-8">
+      <div class="column is-8">
+        <div class="content">
+          {%- for text in site.data.content["section-partners"].text[page.lang] -%}
+          <p>{{text}}</p>
+          {%- endfor -%}
         </div>
-      {%- endfor -%}
-      </div> {%- endcomment -%}
+      </div>
+    </div>
   </div>
 </section>
 <!--
