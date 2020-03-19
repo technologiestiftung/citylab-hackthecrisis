@@ -22,7 +22,7 @@ $radius-rounded: 0px;
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: "National Regular";
 }
 
 .hero-image-wrapper {
@@ -101,4 +101,11 @@ body {
     font-weight: 700;
     font-size: 0.5rem;
   }
+}
+
+// -------- typography
+
+.title {
+  font-family: "National ExtraBold";
+  line-height: 130%;
 }
