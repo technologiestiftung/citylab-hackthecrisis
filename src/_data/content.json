@@ -2,29 +2,210 @@
   "section-hero": {
     "text": {
       "en": [""],
-      "de": [""]
+      "de": [
+        "Wir brauchen Eure Unterstützung im Kampf gegen die Ausbreitung von COVID-19! Mit dieser Seite möchten wir Projekten aus der Berliner Community (und darüber hinaus!) eine Plattform bieten, Ideen vorzustellen und sich zu zu Teams zusammenzuschließen."
+      ]
     }
   },
   "section-introduction": {
-    "text": {
-      "en": [""],
-      "de": [""]
+    "title": {
+      "en": "",
+      "de": "So geht's"
+    },
+    "sub-section-idea": {
+      "title": {
+        "en": "",
+        "de": "Deine Ideen"
+      },
+      "text": {
+        "en": [""],
+        "de": [
+          "Ihr stellt euere Ideen und Projekte auf unserer offenen Projektplattform vor. Wir helfen euch dabei, Mitstreiter*innen zu finden und unterstützen euch gemeinsam mit einem breiten Partnernetzwerk mit Ressourcen, Mentoring und Kontakten. ",
+          "Mögliche Maßnahmen zur Eindämmung von COVID-19 sind vielfältig, digital und analog. Dazu gehören zum Beispiel:"
+        ]
+      },
+      "list": {
+        "en": [],
+        "de": [
+          "Information - Tools zur Vermittlung von Daten, Fakten und Informationen",
+          "Maßnahmen zur Stärkung des gesellschaftlichen Zusammenhalts",
+          "Modellierung, Simulation und Prognose",
+          "Prävention und Sicherheit",
+          "Hardware (3D-Druck, Sensorik etc.)",
+          "Lernen",
+          "Mobilität",
+          "Freizeit"
+        ]
+      }
+    },
+    "sub-section-participation": {
+      "title": {
+        "en": "",
+        "de": "Wer kann mitmachen?"
+      },
+      "text": {
+        "en": [""],
+        "de": [
+          "Jede und jeder! Macht mit, ungeachtet eures akademischen oder professionellen Hintergrunds. Auch individuell oder zu zweit könnt ihr Euch einbringen, vielleicht schließen sich schon bald weitere Personen an. Nutzt gerne unseren [Slack], um euch mit anderen auszutauschen."
+        ]
+      },
+      "list": {
+        "en": [],
+        "de": []
+      }
     }
   },
-  "section-submit-project": {
+  "section-submit-projects": {
+    "title": {
+      "en": "",
+      "de": "Projekt einreichen"
+    },
     "text": {
-      "en": [""],
-      "de": [""]
-    }
+      "en": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      ],
+      "de": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      ]
+    },
+    "buttons": [
+      {
+        "text": {
+          "en": "Submit Project",
+          "de": "Projekt Einreichen",
+          "url": "#"
+        }
+      },
+      {
+        "text": {
+          "en": "Join Slack Channel",
+          "de": "Slack Channel Beitreten",
+          "url": "https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-cuwrelh0-~zlO_TY67TvmKVrORdsu2w"
+        }
+      }
+    ]
   },
   "section-partners": {
+    "title": {
+      "en": "",
+      "de": "Partner"
+    },
     "text": {
       "en": [""],
       "de": [""]
     },
     "partners": [
-      { "name": "foobah", "image": "/assets/img/placeholder-logo-partner.png" },
+      {
+        "name": "No image there",
+        "image": "/assets/img/placeholder-logo-partner.png"
+      },
+      { "name": "Kittens", "image": "http://placekitten.com/256/128" },
+      { "name": "Kittens", "image": "http://placekitten.com/256/128" },
+      { "name": "Kittens", "image": "http://placekitten.com/256/128" },
+      { "name": "Kittens", "image": "http://placekitten.com/256/128" },
+      { "name": "Kittens", "image": "http://placekitten.com/256/128" },
+      { "name": "Kittens", "image": "http://placekitten.com/256/128" },
+      { "name": "Kittens", "image": "http://placekitten.com/256/128" },
       { "name": "Kittens", "image": "http://placekitten.com/256/128" }
+    ]
+  },
+  "section-resources": {
+    "title": {
+      "en": "",
+      "de": "Ressourcen"
+    },
+    "text": {
+      "en": [""],
+      "de": [
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ]
+    },
+    "list": [
+      {
+        "title": { "en": "Example", "de": "Example" },
+        "link": {
+          "en": "Text for url",
+          "de": "Text für Url",
+          "url": "https://example.com"
+        }
+      },
+      {
+        "title": { "en": "Example 2", "de": "Example 2" },
+        "link": {
+          "en": "Another Text for url",
+          "de": "Ein anderer Text für Url",
+          "url": "https://example.com"
+        }
+      }
+    ]
+  },
+  "section-faq": {
+    "title": {
+      "en": "FAQ",
+      "de": "FAQ"
+    },
+    "questions": [
+      {
+        "title": {
+          "en": "",
+          "de": "Wann und wo?"
+        },
+        "text": {
+          "en": [],
+          "de": [
+            "Der \"Hack The Crisis Berlin\"-Hackathon findet ab jetzt online statt. Es ist auch kein traditioneller Sinn, da wir keinen Wettbewerb anstreben. Viel mehr wollen wir ein Plattform aufsetzen, auf der wir gemeinsam Vorschläge und Projekte vorstellen, diskutieren und umsetzen können."
+          ]
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "de": "Brauche ich ein Team?"
+        },
+        "text": {
+          "en": [],
+          "de": [
+            "Nein, der Hackathon ist offen für alle Vorschläge, egal ob von Individuen oder Gruppen. Ziel ist es, Vorschläge zu machen, diese gemeinsam zu diskutieren und dann weitere Mitstreiter*innen zu finden. Ihr könnte euch individuell oder als Team registrieren."
+          ]
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "de": "Welche Ideen sucht Ihr?"
+        },
+        "text": {
+          "en": [],
+          "de": [
+            "Da machen wir keine Vorgaben. Wir haben einige Kategorien identifiziert um einen Rahmen zu setzen, aber auch diesen dürft ihr sprengen. Schlagt große oder kleine Ideen vor, die können von der Community diskutiert werden.  Unsere Mentor*innen und wir werden auch versuchen, euch eine Rückmeldung zu geben und dabei helfen, die Projekte zu konkretisieren oder umzusetzen."
+          ]
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "de": " Kann ich auch ohne technisches Vorwissen mitmachen?"
+        },
+        "text": {
+          "en": [],
+          "de": [
+            " Ja! Unser Team und die Mentor*innen geben euch eine Einschätzung der technischen Machbarkeit und unterstützen euch dabei, Mitstreiter*innen zu finden, die bei der Umsetzung helfen können."
+          ]
+        }
+      },
+      {
+        "title": {
+          "en": "Example",
+          "de": "Example"
+        },
+        "text": {
+          "en": [],
+          "de": [
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          ]
+        }
+      }
     ]
   }
 }
