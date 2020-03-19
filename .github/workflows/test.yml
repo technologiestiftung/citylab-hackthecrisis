@@ -5,7 +5,6 @@ name: Tests
 
 on:
   push:
-    branches: [ master ]
   pull_request:
     branches: [ master ]
 
@@ -19,11 +18,17 @@ jobs:
         node-version: [10.x, 12.x]
 
     steps:
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.6'
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+        
+    - run: gem install bundler 
+    - run: bundle install
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
