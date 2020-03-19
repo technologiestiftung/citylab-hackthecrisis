@@ -1,0 +1,8 @@
+{
+  "name": "Hack The Crisis - Berlin Edition",
+  "short_name": "Hack The Crisis",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "We need your support in the fight against the spread of COVID-19!"
+}
