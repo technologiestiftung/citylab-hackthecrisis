@@ -21,6 +21,8 @@
   "author": "",
   "license": "",
   "devDependencies": {
+    "@testing-library/dom": "^7.0.4",
+    "@testing-library/jest-dom": "^5.1.1",
     "@types/jest": "25.1.4",
     "@typescript-eslint/eslint-plugin": "2.24.0",
     "@typescript-eslint/parser": "2.24.0",
@@ -70,8 +72,11 @@
     }
   },
   "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/assets/ts/testSetup.ts"
+    ],
     "preset": "ts-jest",
-    "testEnvironment": "jest-environment-node",
+    "testEnvironment": "jsdom",
     "testPathIgnorePatterns": [
       "node_modules/",
       "<rootDir>/assets/js"
