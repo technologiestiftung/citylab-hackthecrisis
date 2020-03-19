@@ -1,13 +1,280 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{site.title}}</title>
-    <link rel="stylesheet" type="text/css" href="{{site.url}}/assets/css/index.css" />
-  </head>
-  <body>
-    {{content}}
-    <script src="/assets/js/index.bundle.js"></script>
+---
+layout: skeleton
+---
+<header></header>
+<section class="section" id="navigation">
+  <nav class="container">
+    {% include hack-the-crisis-logo.html %}
+  </nav>
+</section>
+<section class="hero is-medium">
+  <!-- <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="" class="navbar-item">
+            <img src="http://placekitten.com/64" alt="logo" />
+          </a>
+          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item is-active">
+              Home
+            </a>
+            <a class="navbar-item">
+              Examples
+            </a>
+            <a class="navbar-item">
+              Documentation
+            </a>
+            <span class="navbar-item">
+              <a class="button is-primary is-inverted">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Download</span>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div> -->
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-12">
+          <div class="hero-image-wrapper">
+            <img src="/assets/img/hero.jpg" alt="A Virus" />
+            <div class="hero-image-overlay shadow">
+              <h1 class="title is-1">
+                Hack<br/>
+                the Crisis<br/>
+                <span>Berlin</span>
+              </h1>
+              <div class="content" >
+                {% for text in site.data.content["section-hero"].text[page.lang] %}
+                <p>{{ text | markdownify }}</p>
+                {% endfor %}
+                <p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Hero footer: will stick at the bottom -->
+  <!-- <div class="hero-foot">
+    <nav class="tabs">
+      <div class="container">
+        <ul>
+          <li class="is-active"><a>Overview</a></li>
+          <li><a>Modifiers</a></li>
+          <li><a>Grid</a></li>
+          <li><a>Elements</a></li>
+          <li><a>Components</a></li>
+          <li><a>Layout</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div> -->
+</section>
+<section class="section" id="introduction">
+  <div class="container">
+    <div class="columns is-centered is-8">
+      <div class="column is-8">
+         <h2 class="title is-2">{{
+           site.data.content["section-introduction"].title[page.lang]
+           }}</h2>
+      </div>
+    </div>
+    <div class="columns is-centered is-8">
 
-  </body>
-</html>
+      <div class="column is-4" id="sub-section-idea">
+        <h3 class="title is-3">{{site.data.content["section-introduction"]["sub-section-idea"].title[page.lang]}}</h3>
+        <div class="content">
+        {%- for text in site.data.content["section-introduction"]["sub-section-idea"].text[page.lang] -%}
+          <p>{{text | markdownify }}</p>
+        {%- endfor -%}
+        {%- comment -%}
+         if there is a list we add it hero-head
+         {%- endcomment -%}
+         {% assign list = site.data.content["section-introduction"]["sub-section-idea"].list[page.lang] %}
+         {% include sub-section-list.html list=list %}
+
+
+          {%- comment -%} {%- if site.data.content["section-introduction"]["sub-section-idea"].list[page.lang].size != null or site.data.content["section-introduction"]["sub-section-idea"].list[page.lang].size > 0 -%}
+          <p>
+          <ul>
+          {%- for li in site.data.content["section-introduction"]["sub-section-idea"].list[page.lang] -%}
+            <li>{{li | markdownify }}</li>
+          {%- endfor -%}
+          </ul>
+          </p>
+          {%- endif -%} {%- endcomment -%}
+        </div>
+      </div>
+      <div class="column is-4" id="sub-section-participation">
+        <h3 class="title is-3">{{site.data.content["section-introduction"]["sub-section-participation"].title[page.lang]}}</h3>
+        <div class="content">
+        {%- for text in site.data.content["section-introduction"]["sub-section-participation"].text[page.lang] -%}
+          <p>{{text }}</p>
+        {%- endfor -%}
+
+
+        {% assign list = site.data.content["section-introduction"]["sub-section-participation"].list[page.lang] %}
+         {% include sub-section-list.html list=list %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="submit-projects">
+  <div class="container">
+    <div class="columns is-centered is-8">
+      <div class="column is-8">
+        <h2 class="title is-2">{{site.data.content["section-submit-projects"].title[page.lang]}}</h2>
+        <div class="content">
+        {%- for text in site.data.content["section-submit-projects"].text[page.lang] -%}
+          <p>{{text}}</p>
+        {%- endfor -%}
+          <p>
+          </p>
+          <div class="buttons">
+          {%- for button in site.data.content["section-submit-projects"].buttons -%}
+            <a class="button is-primary is-small" href="{{button.url}}">{{button.text[page.lang]}}</a>
+          {%- endfor -%}
+          </div>
+        </div>
+        </div>
+      </div>
+  </div>
+</section>
+<section class="section" id="partners">
+  <div class="container">
+
+    <div class="columns is-centered is-8">
+      <div class="column is-8">
+        <h2 class="title is-2">{{site.data.content["section-partners"].title[page.lang]}}</h2>
+      </div>
+    </div>
+
+    {%- for partner in site.data.content["section-partners"].partners -%}
+
+    {% assign counter = forloop.index0 | modulo : 4 %}
+  {%- if counter == 0  -%}
+      <div class="columns is-centered is-8">
+  {%- endif -%}
+<div class="column is-2 placeholder">
+          <div>
+            <img src="{{partner.image}}" alt="logo {{partner.name}}">
+          </div>
+          <div>
+            <p>{{partner.name}}</p>
+          </div>
+        </div>
+{%- if counter == 3  -%}
+      </div>
+  {%- endif -%}
+
+    {%- endfor -%}
+      {%- comment -%} <div class="columns is-centered is-8 is-multiline">
+      {%- for partner in site.data.content["section-partners"].partners -%}
+        <div class="column is-2 placeholder">
+          <div>
+            <img src="{{partner.image}}" alt="logo {{partner.name}}">
+          </div>
+          <div>
+            <p>{{partner.name}}</p>
+          </div>
+        </div>
+      {%- endfor -%}
+      </div> {%- endcomment -%}
+  </div>
+</section>
+<!--
+   section.section>.container>.columns.is-centered.is-8>.column.is-8
+ -->
+ <section class="section" id="resources">
+   <div class="container">
+     <div class="columns is-centered is-8">
+       <div class="column is-8">
+         <h2 class="title is-2">
+           {{site.data.content["section-resources"].title[page.lang]}}
+         </h2>
+       </div>
+     </div>
+     <div class="columns is-centered is-8">
+      <div class="column is-8">
+        <div class="content">
+      {%- for text in site.data.content["section-resources"].text[page.lang] -%}
+          <p>{{text}}</p>
+        {%- endfor -%}
+          <p>
+        <ul>
+        {%- for li in site.data.content["section-resources"].list -%}
+          <li><span>{{li.title[page.lang]}}</span> <span><a href="{{li.link.url}}">{{li.link[page.lang]}}</a></span></li>
+        {%- endfor -%}
+        </ul>
+
+              {%- comment -%} {% for i in (1..10) %}
+
+              <li><span>Name der Resource {{i}}</span> <span><a href="#">https://example.com</a></span></li>
+              {%endfor %}
+            </ul> {%- endcomment -%}
+          </p>
+        </div>
+      </div>
+    </div>
+   </div>
+ </section>
+
+ <section class="section" id="faq">
+   <div class="container">
+     <div class="columns is-centered is-8">
+       <div class="column is-8">
+         <h2 class="title is-2">{{site.data.content["section-faq"].title[page.lang]}}</h2>
+       </div>
+     </div>
+     {%- for question in site.data.content["section-faq"].questions -%}
+     {% assign counter = forloop.index0 | modulo : 2 %}
+     {%- if counter == 0 -%}
+     <div class="columns is-centered is-8">
+     {%- endif -%}
+     <div class="column is-4">
+      <div class="content content__faq--white shadow">
+        <p class="is-title has-text-weight-bold">
+          {{question.title[page.lang]}}
+        </p>
+        {%- for text in question.text[page.lang] -%}
+          <p>{{text}}</p>
+        {%- endfor -%}
+      </div>
+    </div>
+     {%- if counter == 1 -%}
+     </div>
+     {%- endif -%}
+     {%- endfor -%}
+ </section>
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column">
+        {% include hack-the-crisis-logo.html %}
+        <div class="content has-text-centered">
+          <p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
