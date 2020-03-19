@@ -10,7 +10,6 @@ layout: skeleton
             {% include hack-the-crisis-logo.html %}
           </a>
           </div>
-
           <input
           type='checkbox'
           role='button'
@@ -19,33 +18,30 @@ layout: skeleton
           aria-label='menu'
           aria-expanded='false'
         >
-
         <label for='navbar-burger-toggle' class='navbar-burger'>
           <span></span>
           <span></span>
           <span></span>
         </label>
-          <!-- <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-        </div> -->
         <div id="navbarMenuHeroA" class="navbar-menu">
           <div class="navbar-end">
+            <!-- create the menu items -->
             {%- for item in site.data.content -%}
             {% assign key = item[0] %}
             {% assign id = site.data.content[key].id %}
             {% assign text = site.data.content[key].title[page.lang] %}
             {%- unless site.data.content[key].id -%}
+            <!-- if there is no id we dont add it to the menu -->
             {% continue %}
             {%- endunless  -%}
-            <!-- {{site.data.content[key].id}} -->
             <a class="navbar-item menu__navbar-items" id="navbar-item-{{forloop.index0}}" href="/{%-if page.lang == 'en'-%}en{%-endif-%}#{{id}}">
               {{text}}
             </a>
             {%- endfor -%}
-
+            <!--
+               add the de/en switch
+               add is-active class based on current page.lang
+             -->
             <span class="navbar-item">
                <span class="{%- if page.lang == 'en' -%}is-active{%-endif-%}"><a href="/en">EN</a></span>|<span class="{%- if page.lang == 'de' -%}is-active{%-endif-%}"><a href="/">DE</a></span>
             </span>
@@ -97,6 +93,19 @@ layout: skeleton
     </nav>
   </div> -->
 </section>
+
+
+<!--
+
+▄█    ▄     ▄▄▄▄▀ █▄▄▄▄ ████▄
+██     █ ▀▀▀ █    █  ▄▀ █   █
+██ ██   █    █    █▀▀▌  █   █
+▐█ █ █  █   █     █  █  ▀████
+ ▐ █  █ █  ▀        █
+   █   ██          ▀
+
+
+ -->
 <section class="section" id="introduction">
   <div class="container">
     <div class="columns is-centered is-8">
@@ -114,22 +123,10 @@ layout: skeleton
         {%- for text in site.data.content["section-introduction"]["sub-section-idea"].text[page.lang] -%}
           <p>{{text | markdownify }}</p>
         {%- endfor -%}
-        {%- comment -%}
-         if there is a list we add it hero-head
-         {%- endcomment -%}
+
          {% assign list = site.data.content["section-introduction"]["sub-section-idea"].list[page.lang] %}
          {% include sub-section-list.html list=list %}
 
-
-          {%- comment -%} {%- if site.data.content["section-introduction"]["sub-section-idea"].list[page.lang].size != null or site.data.content["section-introduction"]["sub-section-idea"].list[page.lang].size > 0 -%}
-          <p>
-          <ul>
-          {%- for li in site.data.content["section-introduction"]["sub-section-idea"].list[page.lang] -%}
-            <li>{{li | markdownify }}</li>
-          {%- endfor -%}
-          </ul>
-          </p>
-          {%- endif -%} {%- endcomment -%}
         </div>
       </div>
       <div class="column is-4" id="sub-section-participation">
@@ -148,6 +145,24 @@ layout: skeleton
   </div>
 </section>
 
+<!--
+
+   ▄▄▄▄▄   ▄   ███   █▀▄▀█ ▄█    ▄▄▄▄▀
+  █     ▀▄  █  █  █  █ █ █ ██ ▀▀▀ █
+▄  ▀▀▀▀▄ █   █ █ ▀ ▄ █ ▄ █ ██     █
+ ▀▄▄▄▄▀  █   █ █  ▄▀ █   █ ▐█    █
+         █▄ ▄█ ███      █   ▐   ▀
+          ▀▀▀          ▀
+
+█ ▄▄  █▄▄▄▄ ████▄   ▄▄▄▄▄ ▄███▄   ▄█▄      ▄▄▄▄▀
+█   █ █  ▄▀ █   █ ▄▀  █   █▀   ▀  █▀ ▀▄ ▀▀▀ █
+█▀▀▀  █▀▀▌  █   █     █   ██▄▄    █   ▀     █
+█     █  █  ▀████  ▄ █    █▄   ▄▀ █▄  ▄▀   █
+ █      █           ▀     ▀███▀   ▀███▀   ▀
+  ▀    ▀
+
+
+ -->
 <section class="section" id="submit-projects">
   <div class="container">
     <div class="columns is-centered is-8">
@@ -169,7 +184,57 @@ layout: skeleton
       </div>
   </div>
 </section>
-<section class="section" id="partners">
+
+
+
+
+<!--
+█▄▄▄▄ ▄███▄     ▄▄▄▄▄   ████▄   ▄   █▄▄▄▄ ▄█▄    ▄███▄     ▄▄▄▄▄
+█  ▄▀ █▀   ▀   █     ▀▄ █   █    █  █  ▄▀ █▀ ▀▄  █▀   ▀   █     ▀▄
+█▀▀▌  ██▄▄   ▄  ▀▀▀▀▄   █   █ █   █ █▀▀▌  █   ▀  ██▄▄   ▄  ▀▀▀▀▄
+█  █  █▄   ▄▀ ▀▄▄▄▄▀    ▀████ █   █ █  █  █▄  ▄▀ █▄   ▄▀ ▀▄▄▄▄▀
+  █   ▀███▀                   █▄ ▄█   █   ▀███▀  ▀███▀
+ ▀                             ▀▀▀   ▀
+
+ -->
+ <section class="section" id="resources">
+   <div class="container">
+     <div class="columns is-centered is-8">
+       <div class="column is-8">
+         <h2 class="title is-2">
+           {{site.data.content["section-resources"].title[page.lang]}}
+         </h2>
+       </div>
+     </div>
+     <div class="columns is-centered is-8">
+      <div class="column is-8">
+        <div class="content">
+      {%- for text in site.data.content["section-resources"].text[page.lang] -%}
+          <p>{{text}}</p>
+        {%- endfor -%}
+          <p>
+        <ul>
+        {%- for li in site.data.content["section-resources"].list -%}
+          <li><span>{{li.title[page.lang]}}</span> <span><a rel="noopener noreferrer" target="_blank" href="{{li.link.url}}">{{li.link[page.lang]}}</a></span></li>
+        {%- endfor -%}
+        </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+   </div>
+ </section>
+
+<!--
+  █ ▄▄  ██   █▄▄▄▄    ▄▄▄▄▀ ▄   ▄███▄   █▄▄▄▄
+  █   █ █ █  █  ▄▀ ▀▀▀ █     █  █▀   ▀  █  ▄▀
+  █▀▀▀  █▄▄█ █▀▀▌      █ ██   █ ██▄▄    █▀▀▌
+  █     █  █ █  █     █  █ █  █ █▄   ▄▀ █  █
+   █       █   █     ▀   █  █ █ ▀███▀     █
+    ▀     █   ▀          █   ██          ▀
+         ▀
+ -->
+ <section class="section" id="partners">
   <div class="container">
 
     <div class="columns is-centered is-8">
@@ -184,7 +249,7 @@ layout: skeleton
   {%- if counter == 0  -%}
       <div class="columns is-centered is-8">
   {%- endif -%}
-<div class="column is-2">
+        <div class="column is-2">
           <div>
             <img src="{{partner.image}}" alt="logo {{partner.name}}">
           </div>
@@ -209,43 +274,19 @@ layout: skeleton
     </div>
   </div>
 </section>
+
+
 <!--
-   section.section>.container>.columns.is-centered.is-8>.column.is-8
+
+  ▄████  ██   ▄▄ █
+  █▀   ▀ █ █ █   █
+  █▀▀    █▄▄█ ▀▀▀█
+  █      █  █    █
+   █        █     █
+    ▀      █       ▀
+          ▀
+
  -->
- <section class="section" id="resources">
-   <div class="container">
-     <div class="columns is-centered is-8">
-       <div class="column is-8">
-         <h2 class="title is-2">
-           {{site.data.content["section-resources"].title[page.lang]}}
-         </h2>
-       </div>
-     </div>
-     <div class="columns is-centered is-8">
-      <div class="column is-8">
-        <div class="content">
-      {%- for text in site.data.content["section-resources"].text[page.lang] -%}
-          <p>{{text}}</p>
-        {%- endfor -%}
-          <p>
-        <ul>
-        {%- for li in site.data.content["section-resources"].list -%}
-          <li><span>{{li.title[page.lang]}}</span> <span><a rel="noopener noreferrer" target="_blank" href="{{li.link.url}}">{{li.link[page.lang]}}</a></span></li>
-        {%- endfor -%}
-        </ul>
-
-              {%- comment -%} {% for i in (1..10) %}
-
-              <li><span>Name der Resource {{i}}</span> <span><a href="#">https://example.com</a></span></li>
-              {%endfor %}
-            </ul> {%- endcomment -%}
-          </p>
-        </div>
-      </div>
-    </div>
-   </div>
- </section>
-
  <section class="section" id="faq">
    <div class="container">
      <div class="columns is-centered is-8">
