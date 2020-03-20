@@ -11,11 +11,11 @@
       },
       "byline": {
         "en": "A project by",
-        "de": "Ein Projekt von"
+        "de": "Ein Projekt der"
       },
       "supportline": {
         "en": "Supported from",
-        "de": "Gefördert von"
+        "de": "Gefördert durch"
       }
     }
   },
@@ -134,6 +134,26 @@
         // "name": "Fraunhofer FOKUS",
         "image": "/assets/img/fraunhofer_log.png",
         "link": "https://www.fokus.fraunhofer.de/"
+      },
+      {
+        // "name": "FH Potsdam",
+        "image": "/assets/img/fhp_logo.png",
+        "link": "https://www.fh-potsdam.de/"
+      },
+      {
+        // "name": "UCLAB",
+        "image": "/assets/img/uclab_logo.png",
+        "link": "https://uclab.fh-potsdam.de/"
+      },
+      {
+        // "name": "IDL",
+        "image": "/assets/img/idl_logo.png",
+        "link": "https://idl.fh-potsdam.de/de/"
+      },
+      {
+        // "name": "Betterplace",
+        "image": "/assets/img/betterplace_logo.png",
+        "link": "https://www.betterplace.org/de"
       },
       {
         // "name": "Beuth Hochschule für Technik Berlin",
