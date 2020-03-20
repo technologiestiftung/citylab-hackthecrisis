@@ -66,19 +66,6 @@ a:hover {
   width: 54%;
 }
 
-.inverted {
-  a {
-    background: #4445af;
-    padding: 0 5px 2px 5px;
-    color: white;
-    transition: 0.125s all ease-in-out;
-    &:hover {
-      background: white;
-      color: $primary;
-      transition: 0.125s all ease-in-out;
-    }
-  }
-}
 // hover link participation
 
 .content-participation a {
@@ -103,6 +90,19 @@ a:hover {
 
 // hover link end
 
+.inverted {
+  a {
+    background: #4445af;
+    padding: 0 5px 2px 5px;
+    color: white;
+    transition: 0.125s all ease-in-out;
+    &:hover {
+      background: white;
+      color: $primary;
+      transition: 0.125s all ease-in-out;
+    }
+  }
+}
 // +++ navbar fix
 .navbar {
   background-color: white;
