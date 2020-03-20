@@ -61,6 +61,20 @@ a:hover {
   padding: 1.5rem;
 }
 
+.inverted {
+  a {
+    background: #4445AF;
+    padding: 0 5px 2px 5px;
+    color: white;
+    transition: .125s all ease-in-out;
+    &:hover {
+      background: white;
+      color: $primary;
+      transition: .125s all ease-in-out;
+    }
+  }
+  }
+
 .hero-image-wrapper {
   display: block;
   position: relative;
