@@ -61,7 +61,6 @@ a:hover {
   padding: 1.5rem;
 }
 
-<<<<<<< HEAD
 // +++ navbar fix
 .navbar {
   background-color: white;
@@ -104,20 +103,8 @@ a:hover {
   background-color: white;
   height: 6em;
 }
-======= .inverted {
-  a {
-    background: #4445af;
-    padding: 0 5px 2px 5px;
-    color: white;
-    transition: 0.125s all ease-in-out;
-    &:hover {
-      background: white;
-      color: $primary;
-      transition: 0.125s all ease-in-out;
-    }
-  }
-}
->>>>>>>3a311a605af7ad94b1a414a914df16c8a8166096 .hero-image-wrapper {
+
+.hero-image-wrapper {
   display: block;
   position: relative;
   margin-top: 3em;
