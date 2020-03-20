@@ -4302,9 +4302,9 @@ a.list-item {
 
 .navbar {
   background-color: white;
-  min-height: 3.25rem;
+  min-height: 6rem;
   position: relative;
-  z-index: 30; }
+  z-index: 1; }
   .navbar.is-white {
     background-color: white;
     color: #0a0a0a; }
@@ -4799,17 +4799,18 @@ body.has-navbar-fixed-bottom {
   overflow-y: hidden; }
 
 .navbar-burger {
-  color: #000;
+  color: #2f30a6;
   cursor: pointer;
   display: block;
   height: 3.25rem;
   position: relative;
   width: 3.25rem;
-  margin-left: auto; }
+  margin-left: auto; 
+  margin-right: 0.5em;}
   .navbar-burger span {
     background-color: currentColor;
     display: block;
-    height: 1px;
+    height: 2px;
     left: calc(50% - 8px);
     position: absolute;
     transform-origin: center;
@@ -6661,7 +6662,9 @@ label.panel-block {
   flex-direction: column;
   justify-content: space-between; }
   .hero .navbar {
-    background: none; }
+    background-color: white;
+    height: 6em;
+}
   .hero .tabs ul {
     border-bottom: none; }
   .hero.is-white {
@@ -7199,7 +7202,9 @@ a:hover {
 
 .hero-image-wrapper {
   display: block;
-  position: relative; }
+  position: relative;
+  margin-top: 3em;
+}
 
 .hero-image-overlay {
   width: 100%;
@@ -7292,7 +7297,9 @@ div.section#nav {
   padding: 0 !important; }
 
 .hack-the-crisis__wrapper {
-  max-width: 150px; }
+  max-width: 150px;
+  margin-top: 1em;
+}
 
 .hack-the-crisis__items {
   max-width: 90px;
