@@ -37,7 +37,7 @@
     "id": "introduction",
     "title": {
       "en": "REPLACE ME",
-      "de": "So geht's"
+      "de": "Wir brauchen eure Ideen!"
     },
     "sub-section-idea": {
       "title": {
@@ -208,19 +208,19 @@
         "text": {
           "en": [],
           "de": [
-            "Da machen wir keine Vorgaben. Wir haben einige Kategorien identifiziert um einen Rahmen zu setzen, aber diesen dürft ihr gerne sprengen. Schlagt große oder kleine Ideen vor, die ihr mit anderen diskutieren wollt."
+            "Da machen wir keine Vorgaben. Wir haben einige Kategorien identifiziert um einen Rahmen zu setzen, aber diesen dürft ihr gerne sprengen. Schlagt große oder kleine Ideen vor, die ihr mit anderen diskutieren und bearbeiten wollt."
           ]
         }
       },
       {
         "title": {
           "en": "",
-          "de": "Kann ich auch ohne technisches Vorwissen mitmachen?"
+          "de": "Brauche ich technisches Vorwissen?"
         },
         "text": {
           "en": [],
           "de": [
-            "Ja! Wir helfen euch gerne dabei, die technische Machbarkeit eurer Ideen einzuschätzen und Mitstreiter*innen zu finden, die euch bei der Umsetzung helfen können."
+            "Nein! Wir helfen euch gerne dabei, die technische Machbarkeit eurer Ideen einzuschätzen und Mitstreiter*innen zu finden, die euch bei der Umsetzung helfen können."
           ]
         }
       },
@@ -232,7 +232,19 @@
         "text": {
           "en": [],
           "de": [
-            "Nein, unsere Plattform ist offen für alle Vorschläge, egal ob von Individuen oder Gruppen. Ziel ist es, Vorschläge zu machen, diese gemeinsam zu diskutieren und dann weitere Mitstreiter*innen zu finden. Ihr könnte euch individuell oder als Team registrieren.  "
+            "Nein, unsere Plattform ist offen für alle Vorschläge, egal ob von Individuen oder Gruppen. Ziel ist es, Vorschläge zu machen, diese gemeinsam zu diskutieren und dann weitere Mitstreiter*innen zu finden. Ihr könnte euch individuell oder als Team registrieren."
+          ]
+        }
+      },
+      {
+        "title": {
+          "en": "",
+          "de": "Kann ich euch als Mentor*in oder Sponsor*in unterstützen?"
+        },
+        "text": {
+          "en": [],
+          "de": [
+            "Bestimmt! Wir freuen uns über jegliche Form von Unterstützung, schreib eine Mail an <a href=\"mailto:hackthecrisis@citylab-berlin.org\">hackthecrisis@citylab-berlin.org</a>"
           ]
         }
       },
