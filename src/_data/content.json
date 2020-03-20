@@ -54,14 +54,12 @@
       "list": {
         "en": [],
         "de": [
-          "Information - Tools zur Vermittlung von Daten, Fakten und Informationen",
-          "Maßnahmen zur Stärkung des gesellschaftlichen Zusammenhalts",
+          "Information und Kommunikation",
+          "Gesellschaftlicher Zusammenhalt",
           "Modellierung, Simulation und Prognose",
-          "Prävention und Sicherheit",
-          "Hardware (3D-Druck, Sensorik etc.)",
-          "Lernen",
-          "Mobilität und Wirtschaft",
-          "Freizeit"
+          "Hardware (3D-Druck, Sensorik, Medizintechnik)",
+          "Bildung, Kultur und Freizeit",
+          "Wirtschaft und Mobilität"
         ]
       }
     },
@@ -96,14 +94,14 @@
       {
         "text": {
           "en": "Submit Project",
-          "de": "Projekt Einreichen",
-          "url": "#"
+          "de": "Projekt einreichen",
+          "url": "https://adhocracy.plus/citylab-berlin/"
         }
       },
       {
         "text": {
           "en": "Join Slack Channel",
-          "de": "Slack Channel Beitreten",
+          "de": "Slack Channel beitreten",
           "url": "https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-cuwrelh0-~zlO_TY67TvmKVrORdsu2w"
         }
       }
@@ -182,7 +180,7 @@
         "text": {
           "en": [],
           "de": [
-            "Nein. Wir brauchen jetzt keine Wettbewerbe, sondern nachhaltige Kooperationen. Das Coronavirus wird uns noch eine Weile begleiten. Wir wollen helfen, Strukturen zu schaffen und die engagierte Community in Berlin (und darüber hinaus) zu vernetzen."
+            "Nein. Wir möchten keinen Wettbewerb ausrufen, sondern nachhaltige Kooperationen fördern. Das Coronavirus wird uns noch eine Weile begleiten. Wir wollen helfen, Strukturen zu schaffen und die engagierte Community in Berlin (und darüber hinaus) zu vernetzen."
           ]
         }
       },
@@ -194,7 +192,7 @@
         "text": {
           "en": [],
           "de": [
-            "Da machen wir keine Vorgaben. Wir haben einige Kategorien identifiziert um einen Rahmen zu setzen, aber diesen dürft ihr gerne sprengen. Schlagt große oder kleine Ideen vor, die können von der Community diskutiert werden.  Unsere Mentor*innen und wir werden auch versuchen, euch eine Rückmeldung zu geben und dabei helfen, die Projekte zu konkretisieren oder umzusetzen. "
+            "Da machen wir keine Vorgaben. Wir haben einige Kategorien identifiziert um einen Rahmen zu setzen, aber diesen dürft ihr gerne sprengen. Schlagt große oder kleine Ideen vor, die können von der Community diskutiert werden."
           ]
         }
       },
