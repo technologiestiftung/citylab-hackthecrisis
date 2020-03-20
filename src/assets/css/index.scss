@@ -61,17 +61,28 @@ a:hover {
   padding: 1.5rem;
 }
 
-// hover link
+// hover link participation
 
-.content a {
+.content-participation a {
   font-weight: bold;
   color: white;
 }
 
-.content a:hover {
+.content-participation a:hover {
   text-decoration: underline;
   color: white;
 }
+
+.content a {
+  font-weight: bold;
+  color: #2f30a6;
+}
+
+.content a:hover {
+  text-decoration: underline;
+  color: #2f30a6;
+}
+
 // hover link end
 
 // +++ navbar fix
