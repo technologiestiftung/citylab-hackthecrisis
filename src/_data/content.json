@@ -161,8 +161,8 @@
         "image": "/assets/img/state_logo.svg"
       },
       {
-        "name": "Liquid Democracy",
-        "image": "/assets/img/placeholder-logo-partner.png"
+        // "name": "Liquid Democracy",
+        "image": "/assets/img/liquid_demo_logo.png"
       }
     ]
   },
