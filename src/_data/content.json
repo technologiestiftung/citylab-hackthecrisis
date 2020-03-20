@@ -148,19 +148,35 @@
     },
     "list": [
       {
-        "title": { "en": "Data Sources", "de": "Datenquellen" },
+        "title": { "en": "Official News", "de": "Offizielle Informationen" },
         "link": {
-          "en": "Our collection of data sources and other materials",
-          "de": "Unsere Sammlung relevanter Datenquellen und weiterer Ressourcen (Google Doc)",
+          "en": "Official Corona-Website of the Berlin Government",
+          "de": "Offizielle Informationen der Berliner Verwaltung",
           "url": "https://docs.google.com/document/d/1rxGvDdMJ9dNrntAFMnvm9hfbYNH3RO2YjfLhVsy7KDI/"
         }
       },
       {
-        "title": { "en": "Example 2", "de": "Example 2" },
+        "title": { "en": "Data Sources", "de": "Datenquellen" },
         "link": {
-          "en": "Another Text for url",
-          "de": "Ein anderer Text für Url",
+          "en": "Our collection of relevant data sources and other materials from Berlin",
+          "de": "Unsere Sammlung relevanter Datenquellen und weiterer Ressourcen aus Berlin (Google Doc)",
+          "url": "https://docs.google.com/document/d/1rxGvDdMJ9dNrntAFMnvm9hfbYNH3RO2YjfLhVsy7KDI/"
+        }
+      },
+      {
+        "title": { "en": "Corona Virus Tech Handbook", "de": "Corona Virus Tech Handbook" },
+        "link": {
+          "en": "Global collection of COVID19-related resources (Google Doc)",
+          "de": "Umfangreiche globale Sammlung von COVID19-Projekten (Google Doc)",
           "url": "https://example.com"
+        }
+      },
+      {
+        "title": { "en": "Official News", "de": "Offizielle Informationen" },
+        "link": {
+          "en": "List of resources from the German WirVsVirus-Hackathon",
+          "de": "Ressourcenliste des WirVsVirus-Hackathons der Bundesregierung",
+          "url": "https://wirvsvirushackathon.org/ressourcen/"
         }
       }
     ]
