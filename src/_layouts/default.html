@@ -121,7 +121,7 @@ layout: skeleton
 
       <div class="column is-4" id="sub-section-idea">
         <h3 class="title is-3">{{site.data.content["section-introduction"]["sub-section-idea"].title[page.lang]}}</h3>
-        <div class="content-participation">
+        <div class="content content-participation">
         {%- for text in site.data.content["section-introduction"]["sub-section-idea"].text[page.lang] -%}
           <p>{{text | markdownify }}</p>
         {%- endfor -%}
@@ -133,7 +133,7 @@ layout: skeleton
       </div>
       <div class="column is-4" id="sub-section-participation">
         <h3 class="title is-3">{{site.data.content["section-introduction"]["sub-section-participation"].title[page.lang]}}</h3>
-        <div class="content-participation">
+        <div class="content content-participation">
         {%- for text in site.data.content["section-introduction"]["sub-section-participation"].text[page.lang] -%}
           <p>{{text }}</p>
         {%- endfor -%}
