@@ -157,8 +157,8 @@
         "image": "/assets/img/kulturbdigital_logo.png"
       },
       {
-        "name": "STATE Studio",
-        "image": "/assets/img/placeholder-logo-partner.png"
+        // "name": "STATE Studio",
+        "image": "/assets/img/state_logo.svg"
       },
       {
         "name": "Liquid Democracy",

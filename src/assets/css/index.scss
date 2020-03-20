@@ -61,6 +61,19 @@ a:hover {
   padding: 1.5rem;
 }
 
+// hover link
+
+.content a {
+  font-weight: bold;
+  color: white;
+}
+
+.content a:hover {
+  text-decoration: underline;
+  color: white;
+}
+// hover link end
+
 // +++ navbar fix
 .navbar {
   background-color: white;
