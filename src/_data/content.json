@@ -121,40 +121,39 @@
     },
     "partners": [
       {
-        "name": "CityLAB Berlin",
+        // "name": "CityLAB Berlin",
         "image": "/assets/img/citylab-logo.svg"
       },
       {
-        "name": "Senatskanzlei Berlin",
+        // "name": "Senatskanzlei Berlin",
         "image": "/assets/img/kanzlei_logo.png"
       },
       {
-        "name": "Urban Impact",
+        // "name": "Urban Impact",
         "image": "/assets/img/urbanimpact_logo.png"
       },
       {
-        "name": "Fraunhofer FOKUS",
+        // "name": "Fraunhofer FOKUS",
         "image": "/assets/img/fraunhofer_log.png"
       },
       {
-        "name": "Beuth Hochschule für Technik Berlin",
+        // "name": "Beuth Hochschule für Technik Berlin",
         "image": "/assets/img/beuth_logo.png"
       },
       {
-        "name": "HTW Berlin",
+        // "name": "HTW Berlin",
         "image": "/assets/img/htw_logo.png"
       },
       {
-        "name": "HWR Berlin",
+        // "name": "HWR Berlin",
         "image": "/assets/img/hwr_logo.png"
       },
-      { "name": "Birds on Mars", "image": "/assets/img/birdsonmars_logo.png" },
       {
-        "name": "Technologiestiftung",
-        "image": "/assets/img/tsb.svg"
+        // "name": "Birds on Mars",
+        "image": "/assets/img/birdsonmars_logo.png"
       },
       {
-        "name": "kulturBdigital",
+        // "name": "kulturBdigital",
         "image": "/assets/img/kulturbdigital_logo.png"
       },
       {
