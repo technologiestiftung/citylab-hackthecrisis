@@ -121,48 +121,54 @@
     },
     "partners": [
       {
-        // "name": "CityLAB Berlin",
-        "image": "/assets/img/citylab-logo.svg"
-      },
-      {
         // "name": "Senatskanzlei Berlin",
-        "image": "/assets/img/kanzlei_logo.png"
+        "image": "/assets/img/kanzlei_logo.png",
+        "link": "https://www.berlin.de/rbmskzl/"
       },
       {
         // "name": "Urban Impact",
-        "image": "/assets/img/urbanimpact_logo.png"
+        "image": "/assets/img/urbanimpact_logo.png",
+        "link": "https://urbanimpact.eu/"
       },
       {
         // "name": "Fraunhofer FOKUS",
-        "image": "/assets/img/fraunhofer_log.png"
+        "image": "/assets/img/fraunhofer_log.png",
+        "link": "https://www.fokus.fraunhofer.de/"
       },
       {
         // "name": "Beuth Hochschule für Technik Berlin",
-        "image": "/assets/img/beuth_logo.png"
+        "image": "/assets/img/beuth_logo.png",
+        "link": "https://www.beuth-hochschule.de/"
       },
       {
         // "name": "HTW Berlin",
-        "image": "/assets/img/htw_logo.png"
+        "image": "/assets/img/htw_logo.png",
+        "link": "https://www.htw-berlin.de/"
       },
       {
         // "name": "HWR Berlin",
-        "image": "/assets/img/hwr_logo.png"
+        "image": "/assets/img/hwr_logo.png",
+        "link": "https://www.hwr-berlin.de/"
       },
       {
         // "name": "Birds on Mars",
-        "image": "/assets/img/birdsonmars_logo.png"
+        "image": "/assets/img/birdsonmars_logo.png",
+        "link": "https://www.birdsonmars.com/"
       },
       {
         // "name": "kulturBdigital",
-        "image": "/assets/img/kulturbdigital_logo.png"
+        "image": "/assets/img/kulturbdigital_logo.png",
+        "link": "https://kultur-b-digital.de/"
       },
       {
         // "name": "STATE Studio",
-        "image": "/assets/img/state_logo.svg"
+        "image": "/assets/img/state_logo.svg",
+        "link": "https://state-studio.com/"
       },
       {
         // "name": "Liquid Democracy",
-        "image": "/assets/img/liquid_demo_logo.png"
+        "image": "/assets/img/liquid_demo_logo.png",
+        "link": "https://liqd.net/de/"
       }
     ]
   },
