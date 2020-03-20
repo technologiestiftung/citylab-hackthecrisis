@@ -148,11 +148,11 @@
     },
     "list": [
       {
-        "title": { "en": "Example", "de": "Example" },
+        "title": { "en": "Data Sources", "de": "Datenquellen" },
         "link": {
-          "en": "Text for url",
-          "de": "Text für Url",
-          "url": "https://example.com"
+          "en": "Our collection of data sources and other materials",
+          "de": "Unsere Sammlung relevanter Datenquellen und weiterer Ressourcen (Google Doc)",
+          "url": "https://docs.google.com/document/d/1rxGvDdMJ9dNrntAFMnvm9hfbYNH3RO2YjfLhVsy7KDI/"
         }
       },
       {
