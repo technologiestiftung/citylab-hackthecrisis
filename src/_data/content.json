@@ -121,19 +121,50 @@
     },
     "partners": [
       {
-        "name": "CityLAB",
-        "image": "/assets/img/placeholder-logo-partner.png"
+        "name": "CityLAB Berlin",
+        "image": "/assets/img/citylab-logo.svg"
       },
       {
-        "name": "Senatskanzlei",
-        "image": "/assets/img/placeholder-logo-partner.png"
+        "name": "Senatskanzlei Berlin",
+        "image": "/assets/img/kanzlei_logo.png"
       },
-      { "name": "SenGPG", "image": "/assets/img/placeholder-logo-partner.png" },
+      {
+        "name": "Urban Impact",
+        "image": "/assets/img/urbanimpact_logo.png"
+      },
+      {
+        "name": "Fraunhofer FOKUS",
+        "image": "/assets/img/fraunhofer_log.png"
+      },
+      {
+        "name": "Beuth Hochschule für Technik Berlin",
+        "image": "/assets/img/beuth_logo.png"
+      },
+      {
+        "name": "HTW Berlin",
+        "image": "/assets/img/htw_logo.png"
+      },
+      {
+        "name": "HWR Berlin",
+        "image": "/assets/img/hwr_logo.png"
+      },
+      { "name": "Birds on Mars", "image": "/assets/img/birdsonmars_logo.png" },
       {
         "name": "Technologiestiftung",
+        "image": "/assets/img/tsb.svg"
+      },
+      {
+        "name": "kulturBdigital",
+        "image": "/assets/img/kulturbdigital_logo.png"
+      },
+      {
+        "name": "STATE Studio",
         "image": "/assets/img/placeholder-logo-partner.png"
       },
-      { "name": "Guaana", "image": "/assets/img/placeholder-logo-partner.png" }
+      {
+        "name": "Liquid Democracy",
+        "image": "/assets/img/placeholder-logo-partner.png"
+      }
     ]
   },
   "section-resources": {
@@ -164,7 +195,10 @@
         }
       },
       {
-        "title": { "en": "Corona Virus Tech Handbook", "de": "Corona Virus Tech Handbook" },
+        "title": {
+          "en": "Corona Virus Tech Handbook",
+          "de": "Corona Virus Tech Handbook"
+        },
         "link": {
           "en": "Global collection of COVID19-related resources (Google Doc)",
           "de": "Umfangreiche globale Sammlung von COVID19-Projekten (Google Doc)",
