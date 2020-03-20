@@ -178,7 +178,7 @@ layout: skeleton
           </p>
           <div class="buttons">
           {%- for button in site.data.content["section-submit-projects"].buttons -%}
-            <a rel="noopener noreferrer" target="_blank" class="button is-primary" href="{{button.url}}">{{button.text[page.lang]}}</a>
+            <a rel="noopener noreferrer" target="_blank" class="button is-primary" href="{{button.text.url}}">{{button.text[page.lang]}}</a>
           {%- endfor -%}
           </div>
         </div>
