@@ -27,7 +27,7 @@
     "text": {
       "en": [""],
       "de": [
-        "Wir brauchen Eure Unterstützung im Kampf gegen die Ausbreitung von COVID-19!",
+        "Wir brauchen Eure Unterstützung im Kampf gegen die Ausbreitung von Covid-19!",
         "Die aktuelle Krise betrifft uns alle. Gleichzeitig können wir alle einen Beitrag leisten, die Konsequenzen zu mindern. Hier möchten wir Projekten aus der Berliner Community (und darüber hinaus!) eine Plattform bieten, Ideen vorzustellen und sich zu Teams zusammenzuschließen.",
         "<!-- <blockquote></blockquote> -->"
       ]
@@ -231,7 +231,7 @@
         }
       },
       {
-        "title": { "en": "Official News", "de": "Offizielle Informationen" },
+        "title": { "en": "WirVsVirus Hackathon", "de": "WirVsVirus" },
         "link": {
           "en": "List of resources from the German WirVsVirus-Hackathon",
           "de": "Ressourcenliste des WirVsVirus-Hackathons der Bundesregierung",
