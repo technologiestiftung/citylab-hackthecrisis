@@ -14,7 +14,7 @@
         "de": "Ein Projekt der"
       },
       "supportline": {
-        "en": "Supported from",
+        "en": "Supported by",
         "de": "Gefördert durch"
       }
     }
@@ -25,7 +25,10 @@
       "de": ["Hack", "the Crisis", "<span>Berlin Edition</span>"]
     },
     "text": {
-      "en": [""],
+      "en": [
+        "We need your help to fight the spread of COVID-19!",
+        "The current crisis is affecting all of us. But we all can make a contribution to help lessen the negative effects of the virus. Through this initiative, we want create a platform for projects stemming from the Berlin community (and beyond!), where individuals can introduce their ideas and build teams of interested people."
+      ],
       "de": [
         "Wir brauchen Eure Unterstützung im Kampf gegen die Ausbreitung von Covid-19!",
         "Die aktuelle Krise betrifft uns alle. Gleichzeitig können wir alle einen Beitrag leisten, die Konsequenzen zu mindern. Hier möchten wir Projekten aus der Berliner Community (und darüber hinaus!) eine Plattform bieten, Ideen vorzustellen und sich zu Teams zusammenzuschließen.",
@@ -36,23 +39,33 @@
   "section-introduction": {
     "id": "introduction",
     "title": {
-      "en": "REPLACE ME",
+      "en": "We need your ideas!",
       "de": "Wir brauchen eure Ideen!"
     },
     "sub-section-idea": {
       "title": {
-        "en": "",
+        "en": "How it works",
         "de": "So geht's"
       },
       "text": {
-        "en": [""],
+        "en": [
+          "Use our <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://adhocracy.plus/citylab-berlin/\">project platform</a> to share your ideas and projects or to see what challenges others have identified. We'll try our best help you find others interested in working on the same topics, as well as resources to support your efforts. We're in direct contact with the public health authorities in Berlin as well as other experts, and we'll work to make sure your projects and ideas are heard.",
+          "There is a vast range of possible actions our community can take to stop the spread of COVID-19 – and help society better cope with the current situation. These inlcude both analog and digital initiatives. We're gathering ideas from various areas, like:"
+        ],
         "de": [
           "Nutzt unsere <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://adhocracy.plus/citylab-berlin/\">Projektplattform</a> um eure Ideen und Projekte vorzustellen oder um euch über aktuelle Herausforderungen zu informieren. Wir helfen euch dabei, Mitstreiter*innen und Ressourcen zu finden. Wir stehen in direktem Kontakt mit Berliner Gesundheitsbehörden und anderen Experten und sorgen dafür, dass eure Projekte und Ideen Gehör finden.",
           "Mögliche Maßnahmen zur Eindämmung von COVID-19 sind vielfältig, digital und analog. Wir sammeln Projekte aus verschiedenen Bereichen, zum Beispiel"
         ]
       },
       "list": {
-        "en": [],
+        "en": [
+          "Information and communication",
+          "Social cohesion",
+          "Models, simulations and prognoses",
+          "Hardware (e.g., 3D printing, sensors, medical technology)",
+          "Education, colture and leisure",
+          "Economy and mobility"        
+        ],
         "de": [
           "Information und Kommunikation",
           "Gesellschaftlicher Zusammenhalt",
@@ -65,11 +78,13 @@
     },
     "sub-section-participation": {
       "title": {
-        "en": "REPLACE ME",
+        "en": "Who can participate?",
         "de": "Wer kann mitmachen?"
       },
       "text": {
-        "en": [""],
+        "en": [
+          "Everyone! It doesn't matter what your academic or professional background is, and we're welcoming of individuals as well as teams. Perhaps you'll find some new collaborators on this platform. To boost possibilites for collaboration and cooperation, make use of our <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-cuwrelh0-~zlO_TY67TvmKVrORdsu2w\">Slack</a> chat."
+        ],
         "de": [
           "Jede*r! Macht mit, ungeachtet eures akademischen oder professionellen Hintergrunds. Ihr könnt euch als Team ebenso einbringen wie alleine. Vielleicht schließen sich schon bald weitere Personen an. Nutzt gerne unseren <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-cuwrelh0-~zlO_TY67TvmKVrORdsu2w\">Slack</a>, um euch mit anderen auszutauschen."
         ]
@@ -83,7 +98,7 @@
   "section-submit-projects": {
     "id": "submit-projects",
     "title": {
-      "en": "Submit Project",
+      "en": "Join the efforts!",
       "de": "Projekt einreichen"
     },
     "text": {
@@ -93,14 +108,14 @@
     "buttons": [
       {
         "text": {
-          "en": "Submit Project",
+          "en": "Visit the project platform",
           "de": "Zur Projektplattform",
           "url": "https://adhocracy.plus/citylab-berlin/"
         }
       },
       {
         "text": {
-          "en": "Join Slack Channel",
+          "en": "Join the Slack channel",
           "de": "Slack Channel beitreten",
           "url": "https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-cuwrelh0-~zlO_TY67TvmKVrORdsu2w"
         }
@@ -114,7 +129,9 @@
       "de": "Partner"
     },
     "text": {
-      "en": [""],
+      "en": [
+        "We'd love to add more partners to this initiative – reach out to us at <a href=\"mailto:hackthecrisis@citylab-berlin.org\">hackthecrisis@citylab-berlin.org</a>"
+      ],
       "de": [
         "Wir freuen uns über weitere Unterstützung – Meldet euch unter <a href=\"mailto:hackthecrisis@citylab-berlin.org\">hackthecrisis@citylab-berlin.org</a>"
       ]
@@ -189,13 +206,18 @@
         // "name": "Liquid Democracy",
         "image": "/assets/img/liquid_demo_logo.png",
         "link": "https://liqd.net/de/"
+      },
+      {
+        // "name": "ODIS",
+        "image": "/assets/img/odis_logo.png",
+        "link": "https://odis-berlin.de/"
       }
     ]
   },
   "section-resources": {
     "id": "resources",
     "title": {
-      "en": "Ressources",
+      "en": "Resources",
       "de": "Ressourcen"
     },
     "text": {
@@ -204,15 +226,15 @@
     },
     "list": [
       {
-        "title": { "en": "Official News", "de": "Offizielle Informationen" },
+        "title": { "en": "Official information:", "de": "Offizielle Informationen" },
         "link": {
-          "en": "Official Corona-Website of the Berlin Government",
+          "en": "The Berlin City Administration's official COVID-19 website",
           "de": "Offizielle Informationen der Berliner Verwaltung",
-          "url": "https://docs.google.com/document/d/1rxGvDdMJ9dNrntAFMnvm9hfbYNH3RO2YjfLhVsy7KDI/"
+          "url": "https://www.berlin.de/corona/"
         }
       },
       {
-        "title": { "en": "Data Sources", "de": "Datenquellen" },
+        "title": { "en": "Data sources", "de": "Datenquellen" },
         "link": {
           "en": "Our collection of relevant data sources and other materials from Berlin",
           "de": "Unsere Sammlung relevanter Datenquellen und weiterer Ressourcen aus Berlin (Google Doc)",
@@ -227,13 +249,13 @@
         "link": {
           "en": "Global collection of COVID19-related resources (Google Doc)",
           "de": "Umfangreiche globale Sammlung von COVID19-Projekten (Google Doc)",
-          "url": "https://example.com"
+          "url": "https://coronavirustechhandbook.com/home"
         }
       },
       {
         "title": { "en": "WirVsVirus Hackathon", "de": "WirVsVirus Hackathon" },
         "link": {
-          "en": "List of resources from the German WirVsVirus-Hackathon",
+          "en": "List of resources provided by the German WirVsVirus-Hackathon",
           "de": "Ressourcenliste des WirVsVirus-Hackathons der Bundesregierung",
           "url": "https://wirvsvirushackathon.org/ressourcen/"
         }
@@ -249,11 +271,13 @@
     "questions": [
       {
         "title": {
-          "en": "",
+          "en": "Is this a hackathon?",
           "de": "Ist das hier ein Hackathon?"
         },
         "text": {
-          "en": [],
+          "en": [
+            "No. Our focus here is not creating a competition, but rather laying the groundwork for sustainable collaborations. The corona virus is simply going to be a fact of life for a while, and as such, we want to help create necessary structures and bring together engaged individuals from Berlin and beyond."
+          ],
           "de": [
             "Nein. Wir möchten keinen Wettbewerb ausrufen, sondern nachhaltige Kooperationen fördern. Das Coronavirus wird uns noch eine Weile begleiten. Wir wollen helfen, Strukturen zu schaffen und die engagierte Community in Berlin (und darüber hinaus) zu vernetzen."
           ]
@@ -261,11 +285,13 @@
       },
       {
         "title": {
-          "en": "",
+          "en": "What kinds of ideas are you looking for?",
           "de": "Welche Ideen sucht Ihr?"
         },
         "text": {
-          "en": [],
+          "en": [
+            "We don't have concrete expectations of what we're looking for. We've identified a few categories in advance in order to give the platform some structure, but please feel free to work outside of these categories. As for the ideas, they can be as big or small as you like, as long as you're interested in discussing them with the broader community."
+          ],
           "de": [
             "Da machen wir keine Vorgaben. Wir haben einige Kategorien identifiziert um einen Rahmen zu setzen, aber diesen dürft ihr gerne sprengen. Schlagt große oder kleine Ideen vor, die ihr mit anderen diskutieren und bearbeiten wollt."
           ]
@@ -273,11 +299,13 @@
       },
       {
         "title": {
-          "en": "",
+          "en": "Do I need any specialized technical knowledge?",
           "de": "Brauche ich technisches Vorwissen?"
         },
         "text": {
-          "en": [],
+          "en": [
+            "Nope! We're happy to help you better understand the technical requirements of your idea, as well as to connect you with possible collaborators who can help you bring your ideas to fruition."
+          ],
           "de": [
             "Nein! Wir helfen euch gerne dabei, die technische Machbarkeit eurer Ideen einzuschätzen und Mitstreiter*innen zu finden, die euch bei der Umsetzung helfen können."
           ]
@@ -285,11 +313,13 @@
       },
       {
         "title": {
-          "en": "",
+          "en": "Do I need a team?",
           "de": "Brauche ich ein Team?"
         },
         "text": {
-          "en": [],
+          "en": [
+            "No, our platform is open for all kinds of suggestions, regardless of if they're coming from individuals or established project groups. The goal is to pitch an idea, discuss said idea with the community and find others who want to help you execute it. You can join the platform representing an individual or a team."
+          ],
           "de": [
             "Nein, unsere Plattform ist offen für alle Vorschläge, egal ob von Individuen oder Gruppen. Ziel ist es, Vorschläge zu machen, diese gemeinsam zu diskutieren und dann weitere Mitstreiter*innen zu finden. Ihr könnte euch individuell oder als Team registrieren."
           ]
@@ -297,11 +327,13 @@
       },
       {
         "title": {
-          "en": "",
+          "en": "Do you need mentors or sponsors?",
           "de": "Kann ich euch als Mentor*in oder Sponsor*in unterstützen?"
         },
         "text": {
-          "en": [],
+          "en": [
+            "Definitely! We're appreciative of every possible form of support. If you're interested in supporting us, send an e-mail to <a href=\"mailto:hackthecrisis@citylab-berlin.org\">hackthecrisis@citylab-berlin.org</a>."
+          ],
           "de": [
             "Bestimmt! Wir freuen uns über jegliche Form von Unterstützung, schreib eine Mail an <a href=\"mailto:hackthecrisis@citylab-berlin.org\">hackthecrisis@citylab-berlin.org</a>"
           ]
@@ -309,11 +341,13 @@
       },
       {
         "title": {
-          "en": "",
+          "en": "I'd liked to commercialize my idea – can I protect my intellectual property rights on the platform?",
           "de": "Ich möchte meine Idee kommerziell verwerten. Was ist mit meinem geistigen Eigentum?"
         },
         "text": {
-          "en": [],
+          "en": [
+            "We certainly think openness is the best way to approach these problems, but we don't mandate that all ideas adhere to this. We claim no ownership or exclusive rights to ideas shared on the platform."
+          ],
           "de": [
             "Wir finden Offenheit zwar besser, machen diesbezüglich aber keine Vorgaben. Selbstverständlich beanspruchen wir keinerlei Eigentums- oder Verwertungsrechte an euren Ideen. "
           ]
