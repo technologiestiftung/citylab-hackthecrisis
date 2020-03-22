@@ -64,7 +64,7 @@
           "Models, simulations and prognoses",
           "Hardware (e.g., 3D printing, sensors, medical technology)",
           "Education, colture and leisure",
-          "Economy and mobility"        
+          "Economy and mobility"
         ],
         "de": [
           "Information und Kommunikation",
@@ -226,7 +226,10 @@
     },
     "list": [
       {
-        "title": { "en": "Official information:", "de": "Offizielle Informationen" },
+        "title": {
+          "en": "Official information:",
+          "de": "Offizielle Informationen"
+        },
         "link": {
           "en": "The Berlin City Administration's official COVID-19 website",
           "de": "Offizielle Informationen der Berliner Verwaltung",
@@ -299,15 +302,15 @@
       },
       {
         "title": {
-          "en": "Do I need any specialized technical knowledge?",
-          "de": "Brauche ich technisches Vorwissen?"
+          "en": "Can I submit already existing projects?",
+          "de": "Kann ich auch schon laufende Projekte einreichen?"
         },
         "text": {
           "en": [
-            "Nope! We're happy to help you better understand the technical requirements of your idea, as well as to connect you with possible collaborators who can help you bring your ideas to fruition."
+            "Yes, please! It is also possible to submit projects which you have not initiiated yourself, if you find them relevant."
           ],
           "de": [
-            "Nein! Wir helfen euch gerne dabei, die technische Machbarkeit eurer Ideen einzuschätzen und Mitstreiter*innen zu finden, die euch bei der Umsetzung helfen können."
+            "Ja, bitte! Das gilt auch, wenn ihr die Projekte nicht selbst initiiert habt, aber unterstützenswert findet."
           ]
         }
       },
