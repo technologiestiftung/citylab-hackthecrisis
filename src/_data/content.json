@@ -293,15 +293,15 @@
     "questions": [
       {
         "title": {
-          "en": "Is this a hackathon?",
-          "de": "Ist das hier ein Hackathon?"
+          "en": "Is this another hackathon?",
+          "de": "Ist das noch ein Hackathon?"
         },
         "text": {
           "en": [
-            "No. Our focus here is not creating a competition, but rather laying the groundwork for sustainable collaborations. The corona virus is simply going to be a fact of life for a while, and as such, we want to help create necessary structures and bring together engaged individuals from Berlin and beyond."
+            "No. Fighting the virus is a marathon, not a sprint. We want to lay the groundwork for sustainable collaborations and help make great ideas happen."
           ],
           "de": [
-            "Nein. Wir möchten keinen Wettbewerb ausrufen, sondern nachhaltige Kooperationen fördern. Das Coronavirus wird uns noch eine Weile begleiten. Wir wollen helfen, Strukturen zu schaffen und die engagierte Community in Berlin (und darüber hinaus) zu vernetzen."
+            "Nein. Der Kampf gegen das Virus wird ein Marathon, kein Sprint. Wir wollen dabei helfen, dass die vielen großartigen Ideen der letzten Tage umgesetzt werden und dafür nachhaltige Strukturen aufbauen."
           ]
         }
       },
