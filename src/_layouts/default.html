@@ -34,7 +34,7 @@ layout: skeleton
             {%- comment -%} <!-- if there is no id we dont add it to the menu --> {%- endcomment -%}
             {% continue %}
             {%- endunless  -%}
-            <a class="navbar-item menu__navbar-items" id="navbar-item-{{forloop.index0}}" href="/{%-if page.lang == 'en'-%}en{%-endif-%}#{{id}}">
+            <a class="navbar-item menu__navbar-items" id="navbar-item-{{forloop.index0}}" href="{%-if page.lang == 'en'-%}/en/#{{id}}{%-else-%}/#{{id}}{%-endif-%}">
               {{text}}
             </a>
             {%- endfor -%}
