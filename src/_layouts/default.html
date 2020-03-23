@@ -347,30 +347,54 @@ layout: skeleton
     </div -->
     {%- endcomment -%}
     <div class="column">
-      <figure class="image is-128x128">
-        <img src="/assets/img/citylab-logo.svg" alt="logo" class="">
-      </figure>
-    </div>
-    <div class="column">
       <div class="content">
         <p>
           {{site.data.content.meta.footer.byline[page.lang]}}
         </p>
+      </div>
+      <a href="{%- if page.lang == 'de' -%}https://www.technologiestiftung-berlin.de{%- else -%}https://www.technologiestiftung-berlin.de/en/home/{%- endif -%}">
         <figure class="image is-128x128">
           <img src="/assets/img/tsb.svg" alt="logo" class="">
         </figure>
+      </a>
+    </div>
+    <div class="column">
+      <div class="content">
+        <p>
+          {{site.data.content.meta.footer.executeedline[page.lang]}}
+        </p>
       </div>
+      <a href="{%- if page.lang == 'de' -%}https://www.citylab-berlin.org/{%- else -%}https://www.citylab-berlin.org/index_en{%- endif -%}">
+        <figure class="image is-128x128">
+          <img src="/assets/img/citylab-logo.svg" alt="logo" class="">
+        </figure>
+      </a>
     </div>
       <div class="column">
         <div class="content">
           <p>
             {{site.data.content.meta.footer.supportline[page.lang]}}
           </p>
-          <figure class="image is-berlin">
-            <img src="/assets/img/be-berlin-logo_long.svg" alt="logo" class="">
-          </figure>
+          <a href="{%- if page.lang == 'de' -%}https://www.be.berlin/{%- else -%}https://www.be.berlin/?L=1{%- endif -%}">
+            <figure class="image is-berlin">
+              <img src="/assets/img/be-berlin-logo_long.svg" alt="logo" class="">
+            </figure>
+          </a>
         </div>
     </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="content">
+          <p>
+            {%- if page.lang == 'de' -%}
+            <a href="https://www.citylab-berlin.org/legalnote/">Impressum</a>
+              {%- else -%}
+              <a href="https://www.citylab-berlin.org/legalnote_en">Legal Note</a>
+            {%- endif -%}
+          </p>
+        </div>
+      </div>
     </div>
     </div>
   </div>
