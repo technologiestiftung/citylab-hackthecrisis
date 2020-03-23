@@ -237,6 +237,17 @@
         }
       },
       {
+        "title": {
+          "en": "bürgeraktiv: Berlin helps!",
+          "de": "bürgeraktiv: Berlin hilft!"
+        },
+        "link": {
+          "en": "City portal with information on volunteer activities",
+          "de": "Landesportal mit Informationen zu freiwilligem Engagement",
+          "url": "https://www.berlin.de/buergeraktiv/"
+        }
+      },
+      {
         "title": { "en": "Data sources", "de": "Datenquellen" },
         "link": {
           "en": "Our collection of relevant data sources and other materials from Berlin",
@@ -258,9 +269,9 @@
       {
         "title": { "en": "WirVsVirus Hackathon", "de": "WirVsVirus Hackathon" },
         "link": {
-          "en": "List of resources provided by the German WirVsVirus-Hackathon",
-          "de": "Ressourcenliste des WirVsVirus-Hackathons der Bundesregierung",
-          "url": "https://wirvsvirushackathon.org/ressourcen/"
+          "en": "List of projects from the German WirVsVirus-Hackathon",
+          "de": "Projektliste des WirVsVirus-Hackathons der Bundesregierung",
+          "url": "https://wirvsvirushackathon.devpost.com/submissions"
         }
       }
     ]
