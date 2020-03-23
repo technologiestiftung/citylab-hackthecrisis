@@ -110,8 +110,12 @@
       "de": "Projekt einreichen"
     },
     "text": {
-      "en": [""],
-      "de": [""]
+      "en": [
+        "You can submit and discuss challenges, ideas and questions you have on our project platform. The aim of the platform is to create visibility, overview and exchange for existing and emerging projects."
+      ],
+      "de": [
+        "Ihr könnt Herausforderungen, Ideen und Fragen die ihr habt gerne auf unserer Projektplattform einreichen und diskutieren. Ziel der Plattform ist es, Sichtbarkeit, Überblick und Austausch für bereits entstandene und neu entstehende Projekte zu schaffen."
+      ]
     },
     "buttons": [
       {
@@ -214,11 +218,6 @@
         "name": "Liquid Democracy",
         "image": "/assets/img/liquid_demo_logo.png",
         "link": "https://liqd.net/de/"
-      },
-      {
-        "name": "Max-Planck-Gesellschaft",
-        "image": "/assets/img/mpg_logo.png",
-        "link": "https://www.mpg.de/de"
       },
       {
         "name": "Max-Planck-Gesellschaft",

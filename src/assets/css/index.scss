@@ -256,7 +256,7 @@ footer .content figure:not(:first-child) {
 }
 
 .navbar-item.is-active {
-  background: lighten($primary, 50%) !important;
+  background: lighten($primary, 55%) !important;
   color: $primary !important;
   padding: 0.35rem;
 }
@@ -305,6 +305,10 @@ footer .content figure:not(:first-child) {
 
 #faq {
   @include primarySection;
+
+  .column.is-4 {
+    display: flex;
+  }
 }
 .shadow {
   box-shadow: 0px 40px 40px -10px rgba($color: #000, $alpha: 0.15); /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
@@ -314,11 +318,11 @@ footer .content figure:not(:first-child) {
 
 .content {
   &__faq {
+    display: flex;
     &--white {
       padding: $size-5;
       background-color: white;
       color: black;
-      height: 100%;
 
       > p.is-title {
         font-size: $size-4;
@@ -351,7 +355,7 @@ div.section {
   & > *:first-child a,
   & > *:last-child a {
     padding: 0.5rem 0.75rem;
-    color: $text;
+    color: $primary;
 
     &:hover {
       color: $primary;
