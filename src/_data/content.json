@@ -138,77 +138,77 @@
     },
     "partners": [
       {
-        // "name": "Senatskanzlei Berlin",
+        "name": "Senatskanzlei Berlin",
         "image": "/assets/img/kanzlei_logo.png",
         "link": "https://www.berlin.de/rbmskzl/"
       },
       {
-        // "name": "Urban Impact",
+        "name": "Urban Impact",
         "image": "/assets/img/urbanimpact_logo.png",
         "link": "https://urbanimpact.eu/"
       },
       {
-        // "name": "Fraunhofer FOKUS",
+        "name": "Fraunhofer FOKUS",
         "image": "/assets/img/fraunhofer_log.png",
         "link": "https://www.fokus.fraunhofer.de/"
       },
       {
-        // "name": "FH Potsdam",
+        "name": "FH Potsdam",
         "image": "/assets/img/fhp_logo.png",
         "link": "https://www.fh-potsdam.de/"
       },
       {
-        // "name": "UCLAB",
+        "name": "UCLAB",
         "image": "/assets/img/uclab_logo.png",
         "link": "https://uclab.fh-potsdam.de/"
       },
       {
-        // "name": "IDL",
+        "name": "IDL",
         "image": "/assets/img/idl_logo.png",
         "link": "https://idl.fh-potsdam.de/de/"
       },
       {
-        // "name": "Betterplace",
+        "name": "Betterplace",
         "image": "/assets/img/betterplace_logo.png",
         "link": "https://www.betterplace.org/de"
       },
       {
-        // "name": "Beuth Hochschule für Technik Berlin",
+        "name": "Beuth Hochschule für Technik Berlin",
         "image": "/assets/img/beuth_logo.png",
         "link": "https://www.beuth-hochschule.de/"
       },
       {
-        // "name": "HTW Berlin",
+        "name": "HTW Berlin",
         "image": "/assets/img/htw_logo.png",
         "link": "https://www.htw-berlin.de/"
       },
       {
-        // "name": "HWR Berlin",
+        "name": "HWR Berlin",
         "image": "/assets/img/hwr_logo.png",
         "link": "https://www.hwr-berlin.de/"
       },
       {
-        // "name": "Birds on Mars",
+        "name": "Birds on Mars",
         "image": "/assets/img/birdsonmars_logo.png",
         "link": "https://www.birdsonmars.com/"
       },
       {
-        // "name": "kulturBdigital",
+        "name": "kulturBdigital",
         "image": "/assets/img/kulturbdigital_logo.png",
         "link": "https://kultur-b-digital.de/"
       },
       {
-        // "name": "STATE Studio",
+        "name": "STATE Studio",
         "image": "/assets/img/state_logo.svg",
         "link": "https://state-studio.com/"
       },
       {
-        // "name": "Liquid Democracy",
+        "name": "Liquid Democracy",
         "image": "/assets/img/liquid_demo_logo.png",
         "link": "https://liqd.net/de/"
       },
       {
-        // "name": "ODIS",
+        "name": "ODIS",
         "image": "/assets/img/odis_logo.png",
         "link": "https://odis-berlin.de/"
       }
