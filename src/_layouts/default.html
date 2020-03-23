@@ -34,16 +34,18 @@ layout: skeleton
             {%- comment -%} <!-- if there is no id we dont add it to the menu --> {%- endcomment -%}
             {% continue %}
             {%- endunless  -%}
-            <a class="navbar-item menu__navbar-items" id="navbar-item-{{forloop.index0}}" href="/{%-if page.lang == 'en'-%}en{%-endif-%}#{{id}}">
+            <a class="navbar-item menu__navbar-items" id="navbar-item-{{forloop.index0}}" href="{%-if page.lang == 'en'-%}/en/#{{id}}{%-else-%}/#{{id}}{%-endif-%}">
               {{text}}
             </a>
             {%- endfor -%}
             {%- comment -%} <!--
                add the de/en switch
                add is-active class based on current page.lang
-             --> {%- endcomment -%}
-            <span class="navbar-item">
-               <span class="{%- if page.lang == 'en' -%}is-active{%-endif-%}"><a href="/en">EN</a></span>|<span class="{%- if page.lang == 'de' -%}is-active{%-endif-%}"><a href="/">DE</a></span>
+             -->{%- endcomment -%}
+            <span class="navbar-item language-switch">
+               <span class="{%- if page.lang == 'en' -%}is-active{%-endif-%}"><a href="/en">EN</a></span>
+              <!--  <span>|</span> -->
+               <span class="{%- if page.lang == 'de' -%}is-active{%-endif-%}"><a href="/">DE</a></span>
             </span>
           </div>
         </div>
@@ -347,30 +349,54 @@ layout: skeleton
     </div -->
     {%- endcomment -%}
     <div class="column">
-      <figure class="image is-128x128">
-        <img src="/assets/img/citylab-logo.svg" alt="logo" class="">
-      </figure>
-    </div>
-    <div class="column">
       <div class="content">
         <p>
           {{site.data.content.meta.footer.byline[page.lang]}}
         </p>
       </div>
-      <figure class="image is-128x128">
-        <img src="/assets/img/tsb.svg" alt="logo" class="">
-      </figure>
+      <a href="{%- if page.lang == 'de' -%}https://www.technologiestiftung-berlin.de{%- else -%}https://www.technologiestiftung-berlin.de/en/home/{%- endif -%}">
+        <figure class="image is-128x128">
+          <img src="/assets/img/tsb.svg" alt="logo" class="">
+        </figure>
+      </a>
+    </div>
+    <div class="column">
+      <div class="content">
+        <p>
+          {{site.data.content.meta.footer.executeedline[page.lang]}}
+        </p>
+      </div>
+      <a href="{%- if page.lang == 'de' -%}https://www.citylab-berlin.org/{%- else -%}https://www.citylab-berlin.org/index_en{%- endif -%}">
+        <figure class="image is-128x128">
+          <img src="/assets/img/citylab-logo.svg" alt="logo" class="">
+        </figure>
+      </a>
     </div>
       <div class="column">
         <div class="content">
           <p>
             {{site.data.content.meta.footer.supportline[page.lang]}}
           </p>
-          <figure class="image is-berlin">
-            <img src="/assets/img/be-berlin-logo_long.svg" alt="logo" class="">
-          </figure>
+          <a href="{%- if page.lang == 'de' -%}https://www.be.berlin/{%- else -%}https://www.be.berlin/?L=1{%- endif -%}">
+            <figure class="image is-berlin">
+              <img src="/assets/img/be-berlin-logo_long.svg" alt="logo" class="">
+            </figure>
+          </a>
         </div>
     </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="content">
+          <p>
+            {%- if page.lang == 'de' -%}
+            <a href="https://www.citylab-berlin.org/legalnote/">Impressum</a>
+              {%- else -%}
+              <a href="https://www.citylab-berlin.org/legalnote_en">Legal Note</a>
+            {%- endif -%}
+          </p>
+        </div>
+      </div>
     </div>
     </div>
   </div>
