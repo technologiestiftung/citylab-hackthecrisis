@@ -268,7 +268,7 @@ footer .content figure:not(:first-child) {
 #partners {
   figure {
     transform: scale(0.5);
-    @include from($desktop) {
+    @include from($tablet) {
       transform: none;
     }
   }
