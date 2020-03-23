@@ -300,6 +300,22 @@ div.section {
   }
 }
 
+.language-switch {
+  & > *:first-child a,
+  & > *:last-child a {
+    padding: 0.5rem 0.75rem;
+    color: $text;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+  & .is-active a {
+    color: $primary;
+    background-color: lighten($primary, 55%);
+  }
+}
+
 // -------- hack-the-crisis
 
 .hack-the-crisis {
