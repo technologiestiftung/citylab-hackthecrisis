@@ -111,10 +111,10 @@
     },
     "text": {
       "en": [
-        "You can submit and discuss challenges, ideas and questions you have on our project platform. The aim of the platform is to create visibility, overview and exchange for existing and emerging projects."
+        "You can submit and discuss challenges, ideas and questions you have on our project platform. The aim of the platform is to create visibility, overview and exchange for existing and emerging projects. Slack is our main communication channel for the exchange about projects, questions and challenges. Here you can get together as a team, work on solutions or discuss questions. We have set up one channel per category, but you are welcome to continue organizing independently."
       ],
       "de": [
-        "Ihr könnt Herausforderungen, Ideen und Fragen die ihr habt gerne auf unserer Projektplattform einreichen und diskutieren. Ziel der Plattform ist es, Sichtbarkeit, Überblick und Austausch für bereits entstandene und neu entstehende Projekte zu schaffen."
+        "Ihr könnt Herausforderungen, Ideen und Fragen die ihr habt gerne auf unserer Projektplattform einreichen und diskutieren. Ziel der Plattform ist es, Sichtbarkeit, Überblick und Austausch für bereits entstandene und neu entstehende Projekte zu schaffen. Slack ist unser Hauptkommunikationskanal zum Austausch über Projekte, Fragen und Herausforderungen. Hier könnt ihr euch im Team zusammenfinden, an Lösungen arbeiten oder Fragen diskutieren. Wir haben pro Kategorie einen Channel vorangelegt, daneben könnt dann aber sehr gerne weiter eigenständig organisieren."
       ]
     },
     "buttons": [
@@ -152,6 +152,11 @@
       {
         "name": "Senatskanzlei Berlin",
         "image": "/assets/img/kanzlei_logo.png",
+        "link": "https://www.berlin.de/rbmskzl/"
+      },
+      {
+        "name": "Senatsverwaltung für Gesundheit, Pflege und Gleichstellung",
+        "image": "/assets/img/senGPG_logo.png",
         "link": "https://www.berlin.de/rbmskzl/"
       },
       {
