@@ -89,15 +89,15 @@ a:hover {
 
 .inverted {
   a {
-    background: #4445af;
+    background: #4445af !important;
     padding: 0 5px 2px 5px;
     color: white;
     font-family: "National Regular";
     transition: 0.125s all ease-in-out;
     text-decoration: none;
     &:hover {
-      background: white;
-      color: $primary;
+      background: white !important;
+      color: $primary !important;
       transition: 0.125s all ease-in-out;
     }
   }
@@ -309,6 +309,7 @@ a:hover {
       padding: $size-5;
       background-color: white;
       color: black;
+      height: 100%;
 
       > p.is-title {
         font-size: $size-4;
@@ -323,7 +324,6 @@ a:hover {
       }
 
       > p {
-        font-family: "National Regular Italic";
         font-size: $size-4;
       }
     }
@@ -400,6 +400,17 @@ div.section {
     font-size: $size-5;
     @include from($tablet) {
       font-size: $size-5;
+    }
+
+    a {
+      padding: 0.2rem 0.5rem;
+      background-color: lighten($primary, 50%);
+      transition: 0.125s all ease-in-out;
+      &:hover {
+        background-color: $primary;
+        transition: 0.125s all ease-in-out;
+        color: white;
+      }
     }
   }
 }

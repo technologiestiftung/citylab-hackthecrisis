@@ -252,6 +252,16 @@ layout: skeleton
       </div>
     </div>
 
+    <div class="columns is-centered is-8">
+      <div class="column is-8">
+        <div class="content">
+          {%- for text in site.data.content["section-partners"].text[page.lang] -%}
+          <p>{{text}}</p>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+
     {%- for partner in site.data.content["section-partners"].partners -%}
 
     {% assign counter = forloop.index0 | modulo : 4 %}
@@ -277,16 +287,6 @@ layout: skeleton
   {%- endif -%}
 
     {%- endfor -%}
-
-    <div class="columns is-centered is-8">
-      <div class="column is-8">
-        <div class="content">
-          {%- for text in site.data.content["section-partners"].text[page.lang] -%}
-          <p>{{text}}</p>
-          {%- endfor -%}
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 
