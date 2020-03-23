@@ -302,29 +302,29 @@
     "questions": [
       {
         "title": {
-          "en": "Is this a hackathon?",
-          "de": "Ist das hier ein Hackathon?"
+          "en": "Is this another hackathon?",
+          "de": "Ist das noch ein Hackathon?"
         },
         "text": {
           "en": [
-            "No. Our focus here is not creating a competition, but rather laying the groundwork for sustainable collaborations. The corona virus is simply going to be a fact of life for a while, and as such, we want to help create necessary structures and bring together engaged individuals from Berlin and beyond."
+            "No. Fighting the virus is a marathon, not a sprint. We want to lay the groundwork for sustainable collaborations and help make great ideas happen."
           ],
           "de": [
-            "Nein. Wir möchten keinen Wettbewerb ausrufen, sondern nachhaltige Kooperationen fördern. Das Coronavirus wird uns noch eine Weile begleiten. Wir wollen helfen, Strukturen zu schaffen und die engagierte Community in Berlin (und darüber hinaus) zu vernetzen."
+            "Nein. Der Kampf gegen das Virus wird ein Marathon, kein Sprint. Wir wollen dabei helfen, dass die vielen großartigen Ideen der letzten Tage umgesetzt werden und dafür nachhaltige Strukturen aufbauen."
           ]
         }
       },
       {
         "title": {
-          "en": "Do I need a team?",
-          "de": "Brauche ich ein Team?"
+          "en": "What kinds of ideas are you looking for?",
+          "de": "Welche Ideen sucht Ihr?"
         },
         "text": {
           "en": [
-            "No, our platform is open for all kinds of suggestions, regardless of if they're coming from individuals or established project groups. The goal is to pitch an idea, discuss said idea with the community and find others who want to help you execute it. You can join the platform representing an individual or a team."
+            "We don't have concrete expectations of what we're looking for. We've identified a few categories in advance in order to give the platform some structure, but please feel free to work outside of these categories. As for the ideas, they can be as big or small as you like, as long as you're interested in discussing them with the broader community."
           ],
           "de": [
-            "Nein, unsere Plattform ist offen für alle Vorhaben, egal ob von Individuen oder Gruppen. Ziel ist es, Vorschläge zu machen, diese gemeinsam zu diskutieren und dann weitere Mitstreiter*innen zu finden. Ihr könnt euch individuell oder als Team registrieren."
+            "Da machen wir keine Vorgaben. Wir haben einige Kategorien identifiziert um einen Rahmen zu setzen, aber diesen dürft ihr gerne sprengen. Schlagt große oder kleine Ideen vor, die ihr mit anderen diskutieren und bearbeiten wollt."
           ]
         }
       },
@@ -344,6 +344,20 @@
       },
       {
         "title": {
+          "en": "Can I get financial support for my idea?",
+          "de": "Kann ich finanzielle Unterstützung für meine Idee erhalten?"
+        },
+        "text": {
+          "en": [
+            "We are working on it. The situation is ongoing and we do everything we can to support your projects. We keep you posted!"
+          ],
+          "de": [
+            "Wir arbeiten daran. Die Situation ist nach wie vor sehr dynamisch und wir tun was wir können, um Projekte zu unterstützen. Wir halten euch auf dem Laufenden!"
+          ]
+        }
+      },
+      {
+        "title": {
           "en": "Do you need mentors or sponsors?",
           "de": "Kann ich euch als Mentor*in oder Sponsor*in unterstützen?"
         },
@@ -353,20 +367,6 @@
           ],
           "de": [
             "Bestimmt! Wir freuen uns über jegliche Form von Unterstützung, schreib eine Mail an <a href=\"mailto:hackthecrisis@citylab-berlin.org\">hackthecrisis@citylab-berlin.org</a>"
-          ]
-        }
-      },
-      {
-        "title": {
-          "en": "What kinds of ideas are you looking for?",
-          "de": "Welche Ideen sucht Ihr?"
-        },
-        "text": {
-          "en": [
-            "We don't have concrete expectations of what we're looking for. We've identified a few categories in advance in order to give the platform some structure, but please feel free to work outside of these categories. As for the ideas, they can be as big or small as you like, as long as you're interested in discussing them with the broader community."
-          ],
-          "de": [
-            "Da machen wir keine Vorgaben. Wir haben einige Kategorien identifiziert um einen Rahmen zu setzen, aber diesen dürft ihr gerne sprengen. Schlagt große oder kleine Ideen vor, die ihr mit anderen diskutieren und bearbeiten wollt."
           ]
         }
       },
