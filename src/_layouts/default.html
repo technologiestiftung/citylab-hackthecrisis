@@ -41,9 +41,11 @@ layout: skeleton
             {%- comment -%} <!--
                add the de/en switch
                add is-active class based on current page.lang
-             --> {%- endcomment -%}
-            <span class="navbar-item">
-               <span class="{%- if page.lang == 'en' -%}is-active{%-endif-%}"><a href="/en">EN</a></span>|<span class="{%- if page.lang == 'de' -%}is-active{%-endif-%}"><a href="/">DE</a></span>
+             -->{%- endcomment -%}
+            <span class="navbar-item language-switch">
+               <span class="{%- if page.lang == 'en' -%}is-active{%-endif-%}"><a href="/en">EN</a></span>
+              <!--  <span>|</span> -->
+               <span class="{%- if page.lang == 'de' -%}is-active{%-endif-%}"><a href="/">DE</a></span>
             </span>
           </div>
         </div>
