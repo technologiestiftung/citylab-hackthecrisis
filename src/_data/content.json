@@ -16,6 +16,10 @@
       "supportline": {
         "en": "Supported by",
         "de": "Gefördert durch"
+      },
+      "executeedline": {
+        "en": "Executed through",
+        "de": "Ausgeführt durch"
       }
     }
   },
