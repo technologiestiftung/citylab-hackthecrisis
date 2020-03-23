@@ -25,23 +25,23 @@ layout: skeleton
         </label>
         <div id="navbarMenuHeroA" class="navbar-menu">
           <div class="navbar-end">
-            <!-- create the menu items -->
+            {%- comment -%} <!-- create the menu items --> {%- endcomment -%}
             {%- for item in site.data.content -%}
             {% assign key = item[0] %}
             {% assign id = site.data.content[key].id %}
             {% assign text = site.data.content[key].title[page.lang] %}
             {%- unless site.data.content[key].id -%}
-            <!-- if there is no id we dont add it to the menu -->
+            {%- comment -%} <!-- if there is no id we dont add it to the menu --> {%- endcomment -%}
             {% continue %}
             {%- endunless  -%}
             <a class="navbar-item menu__navbar-items" id="navbar-item-{{forloop.index0}}" href="/{%-if page.lang == 'en'-%}en{%-endif-%}#{{id}}">
               {{text}}
             </a>
             {%- endfor -%}
-            <!--
+            {%- comment -%} <!--
                add the de/en switch
                add is-active class based on current page.lang
-             -->
+             -->{%- endcomment -%}
             <span class="navbar-item language-switch">
                <span class="{%- if page.lang == 'en' -%}is-active{%-endif-%}"><a href="/en">EN</a></span>
               <!--  <span>|</span> -->
@@ -52,8 +52,7 @@ layout: skeleton
       </div>
     </nav>
   </div>
-  <!-- Hero content: will be in the middle -->
-
+  {%- comment -%} <!-- Hero content: will be in the middle --> {%- endcomment -%}
   <div class="hero-body">
     <div class="container">
       <div class="columns is-centered">
@@ -81,7 +80,7 @@ layout: skeleton
       </div>
     </div>
   </div>
-  <!-- Hero footer: will stick at the bottom -->
+  {%- comment -%} <!-- Hero footer: will stick at the bottom -->
   <!-- <div class="hero-foot">
     <nav class="tabs">
       <div class="container">
@@ -95,10 +94,10 @@ layout: skeleton
         </ul>
       </div>
     </nav>
-  </div> -->
+  </div> --> {%- endcomment -%}
 </section>
 
-
+{%- comment -%}
 <!--
 
 ▄█    ▄     ▄▄▄▄▀ █▄▄▄▄ ████▄
@@ -109,7 +108,7 @@ layout: skeleton
    █   ██          ▀
 
 
- -->
+ --> {%- endcomment -%}
 <section class="section inverted" id="introduction">
   <div class="container">
     <div class="columns is-centered is-8">
@@ -149,6 +148,7 @@ layout: skeleton
   </div>
 </section>
 
+{%- comment -%}
 <!--
 
    ▄▄▄▄▄   ▄   ███   █▀▄▀█ ▄█    ▄▄▄▄▀
@@ -167,6 +167,7 @@ layout: skeleton
 
 
  -->
+ {%- endcomment -%}
 <section class="section" id="submit-projects">
   <div class="container">
     <div class="columns is-centered is-8">
@@ -191,7 +192,7 @@ layout: skeleton
 
 
 
-
+{%- comment -%}
 <!--
 █▄▄▄▄ ▄███▄     ▄▄▄▄▄   ████▄   ▄   █▄▄▄▄ ▄█▄    ▄███▄     ▄▄▄▄▄
 █  ▄▀ █▀   ▀   █     ▀▄ █   █    █  █  ▄▀ █▀ ▀▄  █▀   ▀   █     ▀▄
@@ -201,6 +202,7 @@ layout: skeleton
  ▀                             ▀▀▀   ▀
 
  -->
+  {%- endcomment -%}
  <section class="section" id="resources">
    <div class="container">
      <div class="columns is-centered is-8">
@@ -229,6 +231,8 @@ layout: skeleton
    </div>
  </section>
 
+
+{%- comment -%}
 <!--
   █ ▄▄  ██   █▄▄▄▄    ▄▄▄▄▀ ▄   ▄███▄   █▄▄▄▄
   █   █ █ █  █  ▄▀ ▀▀▀ █     █  █▀   ▀  █  ▄▀
@@ -238,6 +242,9 @@ layout: skeleton
     ▀     █   ▀          █   ██          ▀
          ▀
  -->
+ {%- endcomment -%}
+
+
  <section class="section" id="partners">
   <div class="container">
 
@@ -261,9 +268,11 @@ layout: skeleton
               </a>
             </figure>
           </div>
-          <div>
+          {%- comment -%}
+          <!-- <div>
             <p>{{partner.name}}</p>
-          </div>
+          </div> -->
+          {%- endcomment -%}
         </div>
 {%- if counter == 3 or forloop.last == true  -%}
       </div>
@@ -284,6 +293,7 @@ layout: skeleton
 </section>
 
 
+{%- comment -%}
 <!--
 
   ▄████  ██   ▄▄ █
@@ -293,8 +303,9 @@ layout: skeleton
    █        █     █
     ▀      █       ▀
           ▀
-
  -->
+ {%- endcomment -%}
+
  <section class="section" id="faq">
    <div class="container">
      <div class="columns is-centered is-8">
@@ -328,38 +339,64 @@ layout: skeleton
       <div class="column">
         {% include hack-the-crisis-logo.html %}
       </div>
-      <!--div class="column">
+      {%- comment -%}
+      <!-- div class="column">
         <div class="content">
           <p class="footer__tagline--size">
           {{site.data.content.meta.footer.tagline[page.lang]}}
           </p>
       </div>
-    </div-->
-    <div class="column">
-      <figure class="image is-128x128">
-        <img src="/assets/img/citylab-logo.svg" alt="logo" class="">
-      </figure>
-    </div>
+    </div -->
+    {%- endcomment -%}
     <div class="column">
       <div class="content">
         <p>
           {{site.data.content.meta.footer.byline[page.lang]}}
         </p>
       </div>
-      <figure class="image is-128x128">
-        <img src="/assets/img/tsb.svg" alt="logo" class="">
-      </figure>
+      <a href="{%- if page.lang == 'de' -%}https://www.technologiestiftung-berlin.de{%- else -%}https://www.technologiestiftung-berlin.de/en/home/{%- endif -%}">
+        <figure class="image is-128x128">
+          <img src="/assets/img/tsb.svg" alt="logo" class="">
+        </figure>
+      </a>
+    </div>
+    <div class="column">
+      <div class="content">
+        <p>
+          {{site.data.content.meta.footer.executeedline[page.lang]}}
+        </p>
+      </div>
+      <a href="{%- if page.lang == 'de' -%}https://www.citylab-berlin.org/{%- else -%}https://www.citylab-berlin.org/index_en{%- endif -%}">
+        <figure class="image is-128x128">
+          <img src="/assets/img/citylab-logo.svg" alt="logo" class="">
+        </figure>
+      </a>
     </div>
       <div class="column">
         <div class="content">
           <p>
             {{site.data.content.meta.footer.supportline[page.lang]}}
           </p>
-          <figure class="image is-berlin">
-            <img src="/assets/img/be-berlin-logo_long.svg" alt="logo" class="">
-          </figure>
+          <a href="{%- if page.lang == 'de' -%}https://www.be.berlin/{%- else -%}https://www.be.berlin/?L=1{%- endif -%}">
+            <figure class="image is-berlin">
+              <img src="/assets/img/be-berlin-logo_long.svg" alt="logo" class="">
+            </figure>
+          </a>
         </div>
     </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="content">
+          <p>
+            {%- if page.lang == 'de' -%}
+            <a href="https://www.citylab-berlin.org/legalnote/">Impressum</a>
+              {%- else -%}
+              <a href="https://www.citylab-berlin.org/legalnote_en">Legal Note</a>
+            {%- endif -%}
+          </p>
+        </div>
+      </div>
     </div>
     </div>
   </div>

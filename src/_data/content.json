@@ -4,6 +4,14 @@
       "en": "Hack the Crisis - Berlin Edition",
       "de": "Hack the Crisis - Berlin Edition"
     },
+    "metatagtitle": {
+      "en": "CityLAB Berlin | Hack the Crisis",
+      "de": "CityLAB Berlin | Hack the Crisis"
+    },
+    "description": {
+      "en": "Our City needs your support in the fight against the spread of COVID-19!",
+      "de": "Unsere Stadt braucht Eure Unterstützung im Kampf gegen die Ausbreitung von COVID-19!"
+    },
     "footer": {
       "tagline": {
         "en": "Our City needs your support in the fight against the spread of COVID-19!",
@@ -16,6 +24,10 @@
       "supportline": {
         "en": "Supported by",
         "de": "Gefördert durch"
+      },
+      "executeedline": {
+        "en": "Executed through",
+        "de": "Ausgeführt durch"
       }
     }
   },
@@ -138,77 +150,77 @@
     },
     "partners": [
       {
-        // "name": "Senatskanzlei Berlin",
+        "name": "Senatskanzlei Berlin",
         "image": "/assets/img/kanzlei_logo.png",
         "link": "https://www.berlin.de/rbmskzl/"
       },
       {
-        // "name": "Urban Impact",
+        "name": "Urban Impact",
         "image": "/assets/img/urbanimpact_logo.png",
         "link": "https://urbanimpact.eu/"
       },
       {
-        // "name": "Fraunhofer FOKUS",
+        "name": "Fraunhofer FOKUS",
         "image": "/assets/img/fraunhofer_log.png",
         "link": "https://www.fokus.fraunhofer.de/"
       },
       {
-        // "name": "FH Potsdam",
+        "name": "FH Potsdam",
         "image": "/assets/img/fhp_logo.png",
         "link": "https://www.fh-potsdam.de/"
       },
       {
-        // "name": "UCLAB",
+        "name": "UCLAB",
         "image": "/assets/img/uclab_logo.png",
         "link": "https://uclab.fh-potsdam.de/"
       },
       {
-        // "name": "IDL",
+        "name": "IDL",
         "image": "/assets/img/idl_logo.png",
         "link": "https://idl.fh-potsdam.de/de/"
       },
       {
-        // "name": "Betterplace",
+        "name": "Betterplace",
         "image": "/assets/img/betterplace_logo.png",
         "link": "https://www.betterplace.org/de"
       },
       {
-        // "name": "Beuth Hochschule für Technik Berlin",
+        "name": "Beuth Hochschule für Technik Berlin",
         "image": "/assets/img/beuth_logo.png",
         "link": "https://www.beuth-hochschule.de/"
       },
       {
-        // "name": "HTW Berlin",
+        "name": "HTW Berlin",
         "image": "/assets/img/htw_logo.png",
         "link": "https://www.htw-berlin.de/"
       },
       {
-        // "name": "HWR Berlin",
+        "name": "HWR Berlin",
         "image": "/assets/img/hwr_logo.png",
         "link": "https://www.hwr-berlin.de/"
       },
       {
-        // "name": "Birds on Mars",
+        "name": "Birds on Mars",
         "image": "/assets/img/birdsonmars_logo.png",
         "link": "https://www.birdsonmars.com/"
       },
       {
-        // "name": "kulturBdigital",
+        "name": "kulturBdigital",
         "image": "/assets/img/kulturbdigital_logo.png",
         "link": "https://kultur-b-digital.de/"
       },
       {
-        // "name": "STATE Studio",
+        "name": "STATE Studio",
         "image": "/assets/img/state_logo.svg",
         "link": "https://state-studio.com/"
       },
       {
-        // "name": "Liquid Democracy",
+        "name": "Liquid Democracy",
         "image": "/assets/img/liquid_demo_logo.png",
         "link": "https://liqd.net/de/"
       },
       {
-        // "name": "ODIS",
+        "name": "ODIS",
         "image": "/assets/img/odis_logo.png",
         "link": "https://odis-berlin.de/"
       }
@@ -285,15 +297,15 @@
     "questions": [
       {
         "title": {
-          "en": "Is this a hackathon?",
-          "de": "Ist das hier ein Hackathon?"
+          "en": "Is this another hackathon?",
+          "de": "Ist das noch ein Hackathon?"
         },
         "text": {
           "en": [
-            "No. Our focus here is not creating a competition, but rather laying the groundwork for sustainable collaborations. The corona virus is simply going to be a fact of life for a while, and as such, we want to help create necessary structures and bring together engaged individuals from Berlin and beyond."
+            "No. Fighting the virus is a marathon, not a sprint. We want to lay the groundwork for sustainable collaborations and help make great ideas happen."
           ],
           "de": [
-            "Nein. Wir möchten keinen Wettbewerb ausrufen, sondern nachhaltige Kooperationen fördern. Das Coronavirus wird uns noch eine Weile begleiten. Wir wollen helfen, Strukturen zu schaffen und die engagierte Community in Berlin (und darüber hinaus) zu vernetzen."
+            "Nein. Der Kampf gegen das Virus wird ein Marathon, kein Sprint. Wir wollen dabei helfen, dass die vielen großartigen Ideen der letzten Tage umgesetzt werden und dafür nachhaltige Strukturen aufbauen."
           ]
         }
       },
@@ -327,15 +339,15 @@
       },
       {
         "title": {
-          "en": "Do I need a team?",
-          "de": "Brauche ich ein Team?"
+          "en": "Can I get financial support for my idea?",
+          "de": "Kann ich finanzielle Unterstützung für meine Idee erhalten?"
         },
         "text": {
           "en": [
-            "No, our platform is open for all kinds of suggestions, regardless of if they're coming from individuals or established project groups. The goal is to pitch an idea, discuss said idea with the community and find others who want to help you execute it. You can join the platform representing an individual or a team."
+            "We are working on it. The situation is ongoing and we do everything we can to support your projects. We keep you posted!"
           ],
           "de": [
-            "Nein, unsere Plattform ist offen für alle Vorhaben, egal ob von Individuen oder Gruppen. Ziel ist es, Vorschläge zu machen, diese gemeinsam zu diskutieren und dann weitere Mitstreiter*innen zu finden. Ihr könnt euch individuell oder als Team registrieren."
+            "Wir arbeiten daran. Die Situation ist nach wie vor sehr dynamisch und wir tun was wir können, um Projekte zu unterstützen. Wir halten euch auf dem Laufenden!"
           ]
         }
       },
