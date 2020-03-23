@@ -1,5 +1,10 @@
-import { toggleIsActive } from "../lib/navbar";
-import { getByText, fireEvent, getAllByTestId } from "@testing-library/dom";
+import { toggleIsActive, closeMenuAfterClick } from "../lib/navbar";
+import {
+  getByText,
+  fireEvent,
+  getAllByTestId,
+  getByTestId
+} from "@testing-library/dom";
 
 afterEach(() => {
   document.getElementsByTagName("html")[0].innerHTML = "";
@@ -7,6 +12,13 @@ afterEach(() => {
 
 function setupMenu(): HTMLDivElement {
   const menu = document.createElement("div");
+  const checkBox = document.createElement("input");
+  checkBox.type = "checkbox";
+  checkBox.id = "navbar-burger-toggle";
+  checkBox.checked = false;
+  checkBox.setAttribute("data-testid", "checkbox");
+  menu.appendChild(checkBox);
+
   const items = [1, 2, 3, 4].map(i => {
     const anchor = document.createElement("a");
     anchor.classList.add("menu__navbar-items", "navbar-item");
@@ -23,6 +35,33 @@ function setupMenu(): HTMLDivElement {
 }
 
 describe("navbar", () => {
+  test("should uncheck checkbox after click", () => {
+    const menu = setupMenu();
+    const checkBox = getByTestId(menu, /checkbox/) as HTMLInputElement;
+    checkBox.checked = true;
+    const allAnchros = getAllByTestId(menu, /test-\d/);
+    closeMenuAfterClick();
+    fireEvent.click(allAnchros[0]);
+    expect(checkBox.checked).toBe(false);
+  });
+  test("should throw due to missing navbar items", () => {
+    const menu = setupMenu();
+    const allAnchros = getAllByTestId(menu, /test-\d/);
+    allAnchros.forEach(item => {
+      item.remove();
+    });
+    expect(() => {
+      closeMenuAfterClick();
+    }).toThrow();
+  });
+  test("should throw due to missing checkbox items", () => {
+    const menu = setupMenu();
+    const checkBox = getByTestId(menu, /checkbox/) as HTMLInputElement;
+    checkBox.remove();
+    expect(() => {
+      closeMenuAfterClick();
+    }).toThrow();
+  });
   test("should add class is-active to clicked item", () => {
     const menu = setupMenu();
     toggleIsActive();
