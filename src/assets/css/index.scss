@@ -65,7 +65,7 @@ footer .content p:not(:last-child) {
   margin-bottom: 0;
 }
 
-footer .content figure:not(:first-child) {
+footer .content figure {
   margin-top: 0.5rem;
   margin-left: 0;
 }
@@ -98,15 +98,15 @@ footer .content figure:not(:first-child) {
 
 .inverted {
   a {
-    background: #4445af;
+    background: #4445af !important;
     padding: 0 5px 2px 5px;
     color: white;
     font-family: "National Regular";
     transition: 0.125s all ease-in-out;
     text-decoration: none;
     &:hover {
-      background: white;
-      color: $primary;
+      background: white !important;
+      color: $primary !important;
       transition: 0.125s all ease-in-out;
     }
   }
@@ -256,7 +256,7 @@ footer .content figure:not(:first-child) {
 }
 
 .navbar-item.is-active {
-  background: lighten($primary, 50%) !important;
+  background: lighten($primary, 55%) !important;
   color: $primary !important;
   padding: 0.35rem;
 }
@@ -311,6 +311,10 @@ footer .content figure:not(:first-child) {
 
 #faq {
   @include primarySection;
+
+  .column.is-4 {
+    display: flex;
+  }
 }
 .shadow {
   box-shadow: 0px 40px 40px -10px rgba($color: #000, $alpha: 0.15); /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
@@ -320,6 +324,7 @@ footer .content figure:not(:first-child) {
 
 .content {
   &__faq {
+    display: flex;
     &--white {
       padding: $size-5;
       background-color: white;
@@ -338,7 +343,6 @@ footer .content figure:not(:first-child) {
       }
 
       > p {
-        font-family: "National Regular Italic";
         font-size: $size-4;
       }
     }
@@ -357,7 +361,7 @@ div.section {
   & > *:first-child a,
   & > *:last-child a {
     padding: 0.5rem 0.75rem;
-    color: $text;
+    color: $primary;
 
     &:hover {
       color: $primary;
@@ -431,6 +435,17 @@ div.section {
     font-size: $size-5;
     @include from($tablet) {
       font-size: $size-5;
+    }
+
+    a {
+      padding: 0.2rem 0.5rem;
+      background-color: lighten($primary, 50%);
+      transition: 0.125s all ease-in-out;
+      &:hover {
+        background-color: $primary;
+        transition: 0.125s all ease-in-out;
+        color: white;
+      }
     }
   }
 }

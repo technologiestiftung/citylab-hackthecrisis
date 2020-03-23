@@ -254,6 +254,16 @@ layout: skeleton
       </div>
     </div>
 
+    <div class="columns is-centered is-8">
+      <div class="column is-8">
+        <div class="content">
+          {%- for text in site.data.content["section-partners"].text[page.lang] -%}
+          <p>{{text}}</p>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+
     {%- for partner in site.data.content["section-partners"].partners -%}
 
     {% assign counter = forloop.index0 | modulo : 4 %}
@@ -279,16 +289,6 @@ layout: skeleton
   {%- endif -%}
 
     {%- endfor -%}
-
-    <div class="columns is-centered is-8">
-      <div class="column is-8">
-        <div class="content">
-          {%- for text in site.data.content["section-partners"].text[page.lang] -%}
-          <p>{{text}}</p>
-          {%- endfor -%}
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -318,7 +318,7 @@ layout: skeleton
      {%- if counter == 0 -%}
      <div class="columns is-centered is-8">
      {%- endif -%}
-     <div class="column is-4">
+     <div class="column is-4 is-flex">
       <div class="content content__faq--white shadow">
         <p class="is-title has-text-weight-bold">
           {{question.title[page.lang]}}
@@ -353,24 +353,24 @@ layout: skeleton
         <p>
           {{site.data.content.meta.footer.byline[page.lang]}}
         </p>
+        <a href="{%- if page.lang == 'de' -%}https://www.technologiestiftung-berlin.de{%- else -%}https://www.technologiestiftung-berlin.de/en/home/{%- endif -%}">
+          <figure class="image is-128x128">
+            <img src="/assets/img/tsb.svg" alt="logo" class="">
+          </figure>
+        </a>
       </div>
-      <a href="{%- if page.lang == 'de' -%}https://www.technologiestiftung-berlin.de{%- else -%}https://www.technologiestiftung-berlin.de/en/home/{%- endif -%}">
-        <figure class="image is-128x128">
-          <img src="/assets/img/tsb.svg" alt="logo" class="">
-        </figure>
-      </a>
     </div>
     <div class="column">
       <div class="content">
         <p>
           {{site.data.content.meta.footer.executeedline[page.lang]}}
         </p>
+        <a href="{%- if page.lang == 'de' -%}https://www.citylab-berlin.org/{%- else -%}https://www.citylab-berlin.org/index_en{%- endif -%}">
+          <figure class="image is-128x128">
+            <img src="/assets/img/citylab-logo.svg" alt="logo" class="">
+          </figure>
+        </a>
       </div>
-      <a href="{%- if page.lang == 'de' -%}https://www.citylab-berlin.org/{%- else -%}https://www.citylab-berlin.org/index_en{%- endif -%}">
-        <figure class="image is-128x128">
-          <img src="/assets/img/citylab-logo.svg" alt="logo" class="">
-        </figure>
-      </a>
     </div>
       <div class="column">
         <div class="content">

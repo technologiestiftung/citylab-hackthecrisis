@@ -5,12 +5,12 @@
       "de": "Hack the Crisis - Berlin Edition"
     },
     "metatagtitle": {
-      "en": "CityLAB Berlin | Hack the Crisis",
+      "en": "",
       "de": "CityLAB Berlin | Hack the Crisis"
     },
     "description": {
-      "en": "Our City needs your support in the fight against the spread of COVID-19!",
-      "de": "Unsere Stadt braucht Eure Unterstützung im Kampf gegen die Ausbreitung von COVID-19!"
+      "en": "",
+      "de": "Die aktuelle Krise betrifft uns alle. Gleichzeitig kann jede*r von uns einen Beitrag leisten, die Konsequenzen zu mindern. Hier möchten wir Projekten aus der Berliner Community (und darüber hinaus!) eine Plattform bieten, Ideen vorzustellen und sich zu zu Teams zusammenzuschließen."
     },
     "footer": {
       "tagline": {
@@ -24,10 +24,6 @@
       "supportline": {
         "en": "Supported by",
         "de": "Gefördert durch"
-      },
-      "executeedline": {
-        "en": "Executed through",
-        "de": "Ausgeführt durch"
       }
     }
   },
@@ -95,10 +91,10 @@
       },
       "text": {
         "en": [
-          "Everyone! It doesn't matter what your academic or professional background is, and we're welcoming of individuals as well as teams. Perhaps you'll find some new collaborators on this platform. To boost possibilites for collaboration and cooperation, make use of our <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-cuwrelh0-~zlO_TY67TvmKVrORdsu2w\">Slack</a> chat."
+          "Everyone! It doesn't matter what your academic or professional background is, and we're welcoming of individuals as well as teams. Perhaps you'll find some new collaborators on this platform. To boost possibilites for collaboration and cooperation, make use of our <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-cuwrelh0-~zlO_TY67TvmKVrORdsu2w\">Slack</a> chat for the exchange about projects, questions and challenges. Here you can get together as a team, work on solutions or discuss questions. We have set up one channel per category, but you are welcome to continue organizing independently.."
         ],
         "de": [
-          "Jede*r! Macht mit, ungeachtet eures akademischen oder professionellen Hintergrunds. Ihr könnt euch als Team ebenso einbringen wie alleine. Vielleicht schließen sich schon bald weitere Personen an. Nutzt gerne unseren <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-cuwrelh0-~zlO_TY67TvmKVrORdsu2w\">Slack</a>, um euch mit anderen auszutauschen."
+          "Jede*r! Macht mit, ungeachtet eures akademischen oder professionellen Hintergrunds. Ihr könnt euch als Team ebenso einbringen wie alleine. Vielleicht schließen sich schon bald weitere Personen an. Nutzt gerne unseren <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-cuwrelh0-~zlO_TY67TvmKVrORdsu2w\">Slack</a> zum Austausch über Projekte, Fragen und Herausforderungen. Hier könnt ihr euch im Team zusammenfinden, an Lösungen arbeiten oder Fragen diskutieren. Wir haben pro Kategorie einen Channel vorangelegt, daneben könnt ihr euch sehr gerne weiter eigenständig organisieren."
         ]
       },
       "list": {
@@ -152,6 +148,11 @@
       {
         "name": "Senatskanzlei Berlin",
         "image": "/assets/img/kanzlei_logo.png",
+        "link": "https://www.berlin.de/rbmskzl/"
+      },
+      {
+        "name": "Senatsverwaltung für Gesundheit, Pflege und Gleichstellung",
+        "image": "/assets/img/senGPG_logo.png",
         "link": "https://www.berlin.de/rbmskzl/"
       },
       {
@@ -220,9 +221,9 @@
         "link": "https://liqd.net/de/"
       },
       {
-        "name": "ODIS",
-        "image": "/assets/img/odis_logo.png",
-        "link": "https://odis-berlin.de/"
+        "name": "Max-Planck-Gesellschaft",
+        "image": "/assets/img/mpg_logo.png",
+        "link": "https://www.mpg.de/de"
       }
     ]
   },
