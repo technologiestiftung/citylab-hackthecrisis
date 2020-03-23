@@ -74,17 +74,14 @@ a:hover {
 }
 
 .content-participation a:hover {
-  text-decoration: underline;
   color: white;
 }
 
 .content a {
-  font-weight: bold;
   color: #2f30a6;
 }
 
 .content a:hover {
-  text-decoration: underline;
   color: #2f30a6;
 }
 
@@ -95,7 +92,9 @@ a:hover {
     background: #4445af;
     padding: 0 5px 2px 5px;
     color: white;
+    font-family: "National Regular";
     transition: 0.125s all ease-in-out;
+    text-decoration: none;
     &:hover {
       background: white;
       color: $primary;
@@ -110,6 +109,18 @@ a:hover {
   position: relative;
   z-index: 1;
 }
+
+// .navbar > .container {
+//   display: flex;
+//   align-items: center;
+// }
+
+// .navbar-burger-toggle + .navbar-burger {
+//   margin-top: 0 !important;
+//   @include from($tablet) {
+//     display: none;
+//   }
+// }
 
 .navbar-burger {
   color: $primary;
@@ -154,7 +165,6 @@ a:hover {
 
 .hack-the-crisis__wrapper {
   max-width: 150px;
-  margin-top: 1em;
 }
 
 // +++ navbar fix end
@@ -220,6 +230,32 @@ a:hover {
   // }
 }
 
+.navbar-end {
+  align-items: center;
+}
+
+.navbar-item {
+  font-family: "National Extrabold";
+  color: $primary;
+  padding: 0.4rem;
+  margin-left: 15px;
+
+  &:hover {
+    background: lighten($primary, 60%) !important;
+    color: $primary !important;
+  }
+}
+
+.navbar-item.is-active {
+  background: lighten($primary, 50%) !important;
+  color: $primary !important;
+  padding: 0.35rem;
+}
+
+.navbar-burger-toggle + .navbar-burger {
+  margin-top: -4em;
+}
+
 #partners {
 }
 
@@ -238,7 +274,7 @@ a:hover {
     }
 
     li span:first-of-type {
-      font-weight: bold;
+      font-family: "National Extrabold";
     }
 
     li span:nth-of-type(2) {
@@ -246,11 +282,13 @@ a:hover {
     }
 
     li a {
-      padding: 0.2rem;
-      background-color: lighten($primary, 55%);
-      transition: background-color 0.2s;
+      padding: 0.2rem 0.5rem;
+      background-color: lighten($primary, 50%);
+      transition: 0.125s all ease-in-out;
       &:hover {
-        background-color: lighten($primary, 50%);
+        background-color: $primary;
+        transition: 0.125s all ease-in-out;
+        color: white;
       }
     }
   }
