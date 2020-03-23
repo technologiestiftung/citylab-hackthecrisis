@@ -61,6 +61,15 @@ a:hover {
   padding: 1.5rem;
 }
 
+footer .content p:not(:last-child) {
+  margin-bottom: 0;
+}
+
+footer .content figure:not(:first-child) {
+  margin-top: 0.5rem;
+  margin-left: 0;
+}
+
 // footer image berlin
 .image.is-berlin {
   width: 54%;
