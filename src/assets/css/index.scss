@@ -266,6 +266,16 @@ footer .content figure {
 }
 
 #partners {
+  .is-partner-logos .column.is-2 {
+    flex: none;
+    width: 50%;
+    display: inline-block;
+
+    @include from($tablet) {
+      flex: none;
+      width: 16.66667%;
+    }
+  }
 }
 
 #resources {
