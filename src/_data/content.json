@@ -224,6 +224,36 @@
         "name": "Max-Planck-Gesellschaft",
         "image": "/assets/img/mpg_logo.png",
         "link": "https://www.mpg.de/de"
+      },
+      {
+        "name": "Circular Berlin",
+        "image": "/assets/img/circular_logo.png",
+        "link": "https://circular.berlin/de/"
+      },
+      {
+        "name": "Freifunk Berlin",
+        "image": "/assets/img/freifunk_logo.png",
+        "link": "https://berlin.freifunk.net/"
+      },
+      {
+        "name": "ITDZ",
+        "image": "/assets/img/itdz_logo.png",
+        "link": "https://www.itdz-berlin.de/"
+      },
+      {
+        "name": "Humboldt Innovation GmbH",
+        "image": "/assets/img/logo_humboldt_innovation.png",
+        "link": "https://www.humboldt-innovation.de/"
+      },
+      {
+        "name": "Senatverwaltung für Wirtschaft, Energie und Betriebe",
+        "image": "/assets/img/logo_senat_wi_ene_betrieb.png",
+        "link": "https://www.berlin.de/sen/wirtschaft/"
+      },
+      {
+        "name": "SIBB: Verband der Software-, Informations- und Kommunikations-Industrie in Berlin und Brandenburg e.V.",
+        "image": "/assets/img/sibb_logo.png",
+        "link": "https://www.sibb.de/ueber-uns"
       }
     ]
   },
