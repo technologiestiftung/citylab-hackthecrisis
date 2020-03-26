@@ -254,6 +254,11 @@
         "name": "SIBB: Verband der Software-, Informations- und Kommunikations-Industrie in Berlin und Brandenburg e.V.",
         "image": "/assets/img/sibb_logo.png",
         "link": "https://www.sibb.de/ueber-uns"
+      },
+      {
+        "name": "Drivery Berlin",
+        "image": "/assets/img/logo_drivery.png",
+        "link": "https://thedrivery.com/"
       }
     ]
   },
