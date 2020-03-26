@@ -156,6 +156,11 @@
         "link": "https://www.berlin.de/rbmskzl/"
       },
       {
+        "name": "Senatverwaltung für Wirtschaft, Energie und Betriebe",
+        "image": "/assets/img/logo_senat_wi_ene_betrieb.png",
+        "link": "https://www.berlin.de/sen/wirtschaft/"
+      },
+      {
         "name": "Urban Impact",
         "image": "/assets/img/urbanimpact_logo.png",
         "link": "https://urbanimpact.eu/"
@@ -246,14 +251,14 @@
         "link": "https://www.humboldt-innovation.de/"
       },
       {
-        "name": "Senatverwaltung für Wirtschaft, Energie und Betriebe",
-        "image": "/assets/img/logo_senat_wi_ene_betrieb.png",
-        "link": "https://www.berlin.de/sen/wirtschaft/"
-      },
-      {
         "name": "SIBB: Verband der Software-, Informations- und Kommunikations-Industrie in Berlin und Brandenburg e.V.",
         "image": "/assets/img/sibb_logo.png",
         "link": "https://www.sibb.de/ueber-uns"
+      },
+      {
+        "name": "Drivery Berlin",
+        "image": "/assets/img/logo_drivery.png",
+        "link": "https://thedrivery.com/"
       }
     ]
   },
