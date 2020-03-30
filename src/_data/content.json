@@ -161,6 +161,11 @@
         "link": "https://www.berlin.de/sen/wirtschaft/"
       },
       {
+        "name": "Landesamt für Gesundheit und Soziales",
+        "image": "/assets/img/lageso_logo.png",
+        "link": "https://www.berlin.de/lageso/"
+      },
+      {
         "name": "Urban Impact",
         "image": "/assets/img/urbanimpact_logo.png",
         "link": "https://urbanimpact.eu/"
@@ -259,6 +264,11 @@
         "name": "Drivery Berlin",
         "image": "/assets/img/logo_drivery.png",
         "link": "https://thedrivery.com/"
+      },
+      {
+        "name": "Helmholtz Gemeinschaft Deutscher Forschungszentren",
+        "image": "/assets/img/helmholtz_logo.png",
+        "link": "https://www.helmholtz.de/"
       }
     ]
   },
