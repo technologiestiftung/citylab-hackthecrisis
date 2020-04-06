@@ -269,6 +269,21 @@
         "name": "Helmholtz Gemeinschaft Deutscher Forschungszentren",
         "image": "/assets/img/helmholtz_logo.png",
         "link": "https://www.helmholtz.de/"
+      },
+      {
+        "name": "Prototypes Collective",
+        "image": "/assets/img/logo_prototypes.png",
+        "link": "https://prototypes.berlin"
+      },
+      {
+        "name": "Berlin Partner für Wirtschaft und Technologie",
+        "image": "/assets/img/logo_berlin_partner.png",
+        "link": "https://www.berlin-partner.de/"
+      },
+      {
+        "name": "Zentral- und Landesbibliothek Berlin",
+        "image": "/assets/img/logo_zlb.png",
+        "link": "https://www.zlb.de/"
       }
     ]
   },
