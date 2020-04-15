@@ -176,6 +176,11 @@
         "link": "https://www.fokus.fraunhofer.de/"
       },
       {
+        "name": "FU Berlin",
+        "image": "/assets/img/FUB_logo.png",
+        "link": "https://www.mi.fu-berlin.de/en/index.html"
+      },
+      {
         "name": "FH Potsdam",
         "image": "/assets/img/fhp_logo.png",
         "link": "https://www.fh-potsdam.de/"
