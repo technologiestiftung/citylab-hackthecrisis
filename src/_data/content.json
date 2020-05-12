@@ -332,8 +332,8 @@
       },
       {
         "title": {
-          "en": "Can I get financial support for my idea?",
-          "de": "Kann ich finanzielle Unterstützung für meine Idee erhalten?"
+          "en": "Can I get financial support for my idea from your side?",
+          "de": "Kann ich von Euch finanzielle Unterstützung für meine Idee erhalten??"
         },
         "text": {
           "en": [
@@ -341,6 +341,20 @@
           ],
           "de": [
             "Wir arbeiten daran. Die Situation ist nach wie vor sehr dynamisch und wir tun was wir können, um Projekte zu unterstützen. Wir halten euch auf dem Laufenden!"
+          ]
+        }
+      },
+      {
+        "title": {
+          "en": "What other financial support is available?",
+          "de": "Welche anderen finanziellen Unterstützungen gibt es?"
+        },
+        "text": {
+          "en": [
+            "Using the platform betterplace, you can easily collect donations for your charitable project. No matter if you are a private person, an association or an aid organisation: everyone can use the platform and benefit from the expertise of the largest German donation platform: <a href=\"https://www.betterplace.org/c/spenden-sammeln\" target=\"_blank\">www.betterplace.org/c/spenden-sammeln</a>"
+          ],
+          "de": [
+            "Mit der Plattform <b>betterplace</b> gibt es eine Plattform, auf der du unkompliziert Spenden für dein gemeinnütziges Projekt sammeln kannst. Egal ob Privatperson, Verein oder Hilfsorganisation: jede*r kann die Plattform nutzen und von der Kompetenz der größten deutschen Spendenplattform profitieren: <a href=\"https://www.betterplace.org/c/spenden-sammeln\" target=\"_blank\" >www.betterplace.org/c/spenden-sammeln</a>"
           ]
         }
       },
