@@ -188,6 +188,11 @@
         "link": "https://www.hwr-berlin.de/"
       },
       {
+        // "name": "Kunsthochschule Weißensee",
+        "image": "/assets/img/khb-logo.jpg",
+        "link": "https://www.kh-berlin.de/"
+      },
+      {
         // "name": "Birds on Mars",
         "image": "/assets/img/birdsonmars_logo.png",
         "link": "https://www.birdsonmars.com/"
