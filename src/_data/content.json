@@ -4,6 +4,14 @@
       "en": "Hack the Crisis - Berlin Edition",
       "de": "Hack the Crisis - Berlin Edition"
     },
+    "metatagtitle": {
+      "en": "",
+      "de": "CityLAB Berlin | Hack the Crisis"
+    },
+    "description": {
+      "en": "",
+      "de": "Die aktuelle Krise betrifft uns alle. Gleichzeitig kann jede*r von uns einen Beitrag leisten, die Konsequenzen zu mindern. Hier möchten wir Projekten aus der Berliner Community (und darüber hinaus!) eine Plattform bieten, Ideen vorzustellen und sich zu zu Teams zusammenzuschließen."
+    },
     "footer": {
       "tagline": {
         "en": "Our City needs your support in the fight against the spread of COVID-19!",
@@ -83,10 +91,10 @@
       },
       "text": {
         "en": [
-          "Everyone! It doesn't matter what your academic or professional background is, and we're welcoming of individuals as well as teams. Perhaps you'll find some new collaborators on this platform. To boost possibilites for collaboration and cooperation, make use of our <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-cuwrelh0-~zlO_TY67TvmKVrORdsu2w\">Slack</a> chat."
+          "Everyone! It doesn't matter what your academic or professional background is, and we're welcoming of individuals as well as teams. Perhaps you'll find some new collaborators on this platform. To boost possibilites for collaboration and cooperation, make use of our <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-di3sr1dz-TWIvDcCZy5xKAWyVwAUbpQ\">Slack</a> chat for the exchange about projects, questions and challenges. Here you can get together as a team, work on solutions or discuss questions. We have set up one channel per category, but you are welcome to continue organizing independently.."
         ],
         "de": [
-          "Jede*r! Macht mit, ungeachtet eures akademischen oder professionellen Hintergrunds. Ihr könnt euch als Team ebenso einbringen wie alleine. Vielleicht schließen sich schon bald weitere Personen an. Nutzt gerne unseren <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-cuwrelh0-~zlO_TY67TvmKVrORdsu2w\">Slack</a>, um euch mit anderen auszutauschen."
+          "Jede*r! Macht mit, ungeachtet eures akademischen oder professionellen Hintergrunds. Ihr könnt euch als Team ebenso einbringen wie alleine. Vielleicht schließen sich schon bald weitere Personen an. Nutzt gerne unseren <a rel=\"noopener noreferrer\" target=\"_blank\" href=\"https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-di3sr1dz-TWIvDcCZy5xKAWyVwAUbpQ\">Slack</a> zum Austausch über Projekte, Fragen und Herausforderungen. Hier könnt ihr euch im Team zusammenfinden, an Lösungen arbeiten oder Fragen diskutieren. Wir haben pro Kategorie einen Channel vorangelegt, daneben könnt ihr euch sehr gerne weiter eigenständig organisieren."
         ]
       },
       "list": {
@@ -117,7 +125,7 @@
         "text": {
           "en": "Join the Slack channel",
           "de": "Slack Channel beitreten",
-          "url": "https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-cuwrelh0-~zlO_TY67TvmKVrORdsu2w"
+          "url": "https://join.slack.com/t/hackthecrisis-berlin/shared_invite/zt-di3sr1dz-TWIvDcCZy5xKAWyVwAUbpQ"
         }
       }
     ]
@@ -143,6 +151,21 @@
         "link": "https://www.berlin.de/rbmskzl/"
       },
       {
+        "name": "Senatsverwaltung für Gesundheit, Pflege und Gleichstellung",
+        "image": "/assets/img/senGPG_logo.png",
+        "link": "https://www.berlin.de/rbmskzl/"
+      },
+      {
+        "name": "Senatverwaltung für Wirtschaft, Energie und Betriebe",
+        "image": "/assets/img/logo_senat_wi_ene_betrieb.png",
+        "link": "https://www.berlin.de/sen/wirtschaft/"
+      },
+      {
+        "name": "Landesamt für Gesundheit und Soziales",
+        "image": "/assets/img/lageso_logo.png",
+        "link": "https://www.berlin.de/lageso/"
+      },
+      {
         "name": "Urban Impact",
         "image": "/assets/img/urbanimpact_logo.png",
         "link": "https://urbanimpact.eu/"
@@ -153,6 +176,11 @@
         "link": "https://www.fokus.fraunhofer.de/"
       },
       {
+        "name": "FU Berlin",
+        "image": "/assets/img/FUB_logo.png",
+        "link": "https://www.mi.fu-berlin.de/en/index.html"
+      },
+      {
         "name": "FH Potsdam",
         "image": "/assets/img/fhp_logo.png",
         "link": "https://www.fh-potsdam.de/"
@@ -160,7 +188,7 @@
       {
         "name": "UCLAB",
         "image": "/assets/img/uclab_logo.png",
-        "link": "https://uclab.fh-potsdam.de/"
+        "link": "https://urbane-zukunft.de"
       },
       {
         "name": "IDL",
@@ -188,8 +216,8 @@
         "link": "https://www.hwr-berlin.de/"
       },
       {
-        "name": "Kunsthochschule Weißensee",
-        "image": "/assets/img/khb-logo.jpg",
+        "name": "Kunsthochschule Berlin-Weißensee",
+        "image": "/assets/img/khb-logo-kl.jpg",
         "link": "https://www.kh-berlin.de/"
       },
       {
@@ -213,9 +241,59 @@
         "link": "https://liqd.net/de/"
       },
       {
-        "name": "ODIS",
-        "image": "/assets/img/odis_logo.png",
-        "link": "https://odis-berlin.de/"
+        "name": "Max-Planck-Gesellschaft",
+        "image": "/assets/img/mpg_logo.png",
+        "link": "https://www.mpg.de/de"
+      },
+      {
+        "name": "Circular Berlin",
+        "image": "/assets/img/circular_logo.png",
+        "link": "https://circular.berlin/de/"
+      },
+      {
+        "name": "Freifunk Berlin",
+        "image": "/assets/img/freifunk_logo.png",
+        "link": "https://berlin.freifunk.net/"
+      },
+      {
+        "name": "ITDZ",
+        "image": "/assets/img/itdz_logo.png",
+        "link": "https://www.itdz-berlin.de/"
+      },
+      {
+        "name": "Humboldt Innovation GmbH",
+        "image": "/assets/img/logo_humboldt_innovation.png",
+        "link": "https://www.humboldt-innovation.de/"
+      },
+      {
+        "name": "SIBB: Verband der Software-, Informations- und Kommunikations-Industrie in Berlin und Brandenburg e.V.",
+        "image": "/assets/img/sibb_logo.png",
+        "link": "https://www.sibb.de/ueber-uns"
+      },
+      {
+        "name": "Drivery Berlin",
+        "image": "/assets/img/logo_drivery.png",
+        "link": "https://thedrivery.com/"
+      },
+      {
+        "name": "Helmholtz Gemeinschaft Deutscher Forschungszentren",
+        "image": "/assets/img/helmholtz_logo.png",
+        "link": "https://www.helmholtz.de/"
+      },
+      {
+        "name": "Prototypes Collective",
+        "image": "/assets/img/logo_prototypes.png",
+        "link": "https://prototypes.berlin"
+      },
+      {
+        "name": "Berlin Partner für Wirtschaft und Technologie",
+        "image": "/assets/img/logo_berlin_partner.png",
+        "link": "https://www.berlin-partner.de/"
+      },
+      {
+        "name": "Zentral- und Landesbibliothek Berlin",
+        "image": "/assets/img/logo_zlb.png",
+        "link": "https://www.zlb.de/"
       }
     ]
   },
@@ -346,20 +424,6 @@
       },
       {
         "title": {
-          "en": "What other financial support is available?",
-          "de": "Welche anderen finanziellen Unterstützungen gibt es?"
-        },
-        "text": {
-          "en": [
-            "Using the platform betterplace, you can easily collect donations for your charitable project. No matter if you are a private person, an association or an aid organisation: everyone can use the platform and benefit from the expertise of the largest German donation platform: <a href=\"https://www.betterplace.org/c/spenden-sammeln\" target=\"_blank\">www.betterplace.org/c/spenden-sammeln</a>"
-          ],
-          "de": [
-            "Mit der Plattform <b>betterplace</b> gibt es eine Plattform, auf der du unkompliziert Spenden für dein gemeinnütziges Projekt sammeln kannst. Egal ob Privatperson, Verein oder Hilfsorganisation: jede*r kann die Plattform nutzen und von der Kompetenz der größten deutschen Spendenplattform profitieren: <a href=\"https://www.betterplace.org/c/spenden-sammeln\" target=\"_blank\" >www.betterplace.org/c/spenden-sammeln</a>"
-          ]
-        }
-      },
-      {
-        "title": {
           "en": "Do you need mentors or sponsors?",
           "de": "Kann ich euch als Mentor*in oder Sponsor*in unterstützen?"
         },
@@ -369,6 +433,20 @@
           ],
           "de": [
             "Bestimmt! Wir freuen uns über jegliche Form von Unterstützung, schreib eine Mail an <a href=\"mailto:hackthecrisis@citylab-berlin.org\">hackthecrisis@citylab-berlin.org</a>"
+          ]
+        }
+      },
+      {
+        "title": {
+          "en": "What other financial support is available?",
+          "de": "Welche anderen finanziellen Unterstützungen gibt es?"
+        },
+        "text": {
+          "en": [
+            "Using the platform betterplace, you can easily collect donations for your charitable project. No matter if you are a private person, an association or an aid organisation: everyone can use the platform and benefit from the expertise of the largest German donation platform: <a href=\"https://www.betterplace.org/c/spenden-sammeln\" target=\"_blank\">www.betterplace.org/c/spenden-sammeln</a>"
+          ],
+          "de": [
+            "Mit der Plattform <b>betterplace</b> kannst du unkompliziert Spenden für dein gemeinnütziges Projekt sammeln. Egal ob Privatperson, Verein oder Hilfsorganisation: jede*r kann die Plattform nutzen und von der Kompetenz der größten deutschen Spendenplattform profitieren: <a href=\"https://www.betterplace.org/c/spenden-sammeln\" target=\"_blank\" >www.betterplace.org/c/spenden-sammeln</a>"
           ]
         }
       },
