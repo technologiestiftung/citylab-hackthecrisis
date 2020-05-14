@@ -61,6 +61,15 @@ a:hover {
   padding: 1.5rem;
 }
 
+footer .content p:not(:last-child) {
+  margin-bottom: 0;
+}
+
+footer .content figure {
+  margin-top: 0.5rem;
+  margin-left: 0;
+}
+
 // footer image berlin
 .image.is-berlin {
   width: 54%;
@@ -74,17 +83,14 @@ a:hover {
 }
 
 .content-participation a:hover {
-  text-decoration: underline;
   color: white;
 }
 
 .content a {
-  font-weight: bold;
   color: #2f30a6;
 }
 
 .content a:hover {
-  text-decoration: underline;
   color: #2f30a6;
 }
 
@@ -92,13 +98,15 @@ a:hover {
 
 .inverted {
   a {
-    background: #4445af;
+    background: #4445af !important;
     padding: 0 5px 2px 5px;
     color: white;
+    font-family: "National Regular";
     transition: 0.125s all ease-in-out;
+    text-decoration: none;
     &:hover {
-      background: white;
-      color: $primary;
+      background: white !important;
+      color: $primary !important;
       transition: 0.125s all ease-in-out;
     }
   }
@@ -110,6 +118,18 @@ a:hover {
   position: relative;
   z-index: 1;
 }
+
+// .navbar > .container {
+//   display: flex;
+//   align-items: center;
+// }
+
+// .navbar-burger-toggle + .navbar-burger {
+//   margin-top: 0 !important;
+//   @include from($tablet) {
+//     display: none;
+//   }
+// }
 
 .navbar-burger {
   color: $primary;
@@ -154,7 +174,6 @@ a:hover {
 
 .hack-the-crisis__wrapper {
   max-width: 150px;
-  margin-top: 1em;
 }
 
 // +++ navbar fix end
@@ -220,7 +239,43 @@ a:hover {
   // }
 }
 
+.navbar-end {
+  align-items: center;
+}
+
+.navbar-item {
+  font-family: "National Extrabold";
+  color: $primary;
+  padding: 0.4rem;
+  margin-left: 15px;
+
+  &:hover {
+    background: lighten($primary, 60%) !important;
+    color: $primary !important;
+  }
+}
+
+.navbar-item.is-active {
+  background: lighten($primary, 55%) !important;
+  color: $primary !important;
+  padding: 0.35rem;
+}
+
+.navbar-burger-toggle + .navbar-burger {
+  margin-top: -4em;
+}
+
 #partners {
+  .is-partner-logos .column.is-2 {
+    flex: none;
+    width: 50%;
+    display: inline-block;
+
+    @include from($tablet) {
+      flex: none;
+      width: 16.66667%;
+    }
+  }
 }
 
 #resources {
@@ -238,7 +293,7 @@ a:hover {
     }
 
     li span:first-of-type {
-      font-weight: bold;
+      font-family: "National Extrabold";
     }
 
     li span:nth-of-type(2) {
@@ -246,11 +301,13 @@ a:hover {
     }
 
     li a {
-      padding: 0.2rem;
-      background-color: lighten($primary, 55%);
-      transition: background-color 0.2s;
+      padding: 0.2rem 0.5rem;
+      background-color: lighten($primary, 50%);
+      transition: 0.125s all ease-in-out;
       &:hover {
-        background-color: lighten($primary, 50%);
+        background-color: $primary;
+        transition: 0.125s all ease-in-out;
+        color: white;
       }
     }
   }
@@ -258,6 +315,10 @@ a:hover {
 
 #faq {
   @include primarySection;
+
+  .column.is-4 {
+    display: flex;
+  }
 }
 .shadow {
   box-shadow: 0px 40px 40px -10px rgba($color: #000, $alpha: 0.15); /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
@@ -267,6 +328,7 @@ a:hover {
 
 .content {
   &__faq {
+    display: flex;
     &--white {
       padding: $size-5;
       background-color: white;
@@ -285,7 +347,6 @@ a:hover {
       }
 
       > p {
-        font-family: "National Regular Italic";
         font-size: $size-4;
       }
     }
@@ -297,6 +358,22 @@ a:hover {
 div.section {
   &#nav {
     padding: 0 !important;
+  }
+}
+
+.language-switch {
+  & > *:first-child a,
+  & > *:last-child a {
+    padding: 0.5rem 0.75rem;
+    color: $primary;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+  & .is-active a {
+    color: $primary;
+    background-color: lighten($primary, 55%);
   }
 }
 
@@ -362,6 +439,17 @@ div.section {
     font-size: $size-5;
     @include from($tablet) {
       font-size: $size-5;
+    }
+
+    a {
+      padding: 0.2rem 0.5rem;
+      background-color: lighten($primary, 50%);
+      transition: 0.125s all ease-in-out;
+      &:hover {
+        background-color: $primary;
+        transition: 0.125s all ease-in-out;
+        color: white;
+      }
     }
   }
 }
