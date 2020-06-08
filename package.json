@@ -56,7 +56,7 @@
     "webpack-merge": "4.2.2"
   },
   "dependencies": {
-    "bulma": "0.8.0"
+    "bulma": "0.9.0"
   },
   "lint-staged": {
     "**/*.+(js|jsx|ts|tsx)": [
